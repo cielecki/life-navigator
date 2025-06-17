@@ -28,11 +28,11 @@
 - **Automatic switching**: New delegated chats open automatically so you can see the results
 - **Automatic updates of old format**: AI can detect old format of modes and tools and repair it
 
-<img width="342" alt="image" src="https://github.com/user-attachments/assets/336c6f95-3535-4ac1-8675-fa182eef2125" />
+<img width="342" alt="image" src="https://github.com/user-attachments/assets/d9428730-1c3b-4819-8e9b-8f99e5f80396" />
 
 ### 🎙️ ElevenLabs Voice (Experimental)
 
-<img width="725" alt="image" src="https://github.com/user-attachments/assets/7d5ba79f-9bdf-4a1b-ab06-15892047a7bd" />
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/3dd8f753-34a5-43d9-8fd1-42482455fd07" />
 
 **Optional premium voice upgrade for advanced users:**
 
@@ -48,7 +48,7 @@
 - **Editable chat titles**: Click any chat title to rename it
 - **Better mode selector**: Mode dropdown moved closer to the input area
 
-<img width="379" alt="image" src="https://github.com/user-attachments/assets/baaa24d6-7bcb-40a7-9b41-89b89291ba4d" />
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/eaba24c6-cb61-4967-80d2-c01c6551343e" />
 
 - **Improved task navigation**: Click task results to jump to the exact location in your notes
 - **What's New modal**: See changelog after updates
