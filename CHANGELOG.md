@@ -4,7 +4,7 @@
 
 **Work on multiple tasks at once without switching contexts:**
 
-<img width="1048" alt="image" src="https://github.com/user-attachments/assets/3e706415-d17a-4b9e-947e-2cb304b04ab4" />
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/d083fe63-8d35-4494-92c6-7a2166b7e15c" />
 
 - **Parallel chats**: Open multiple Life Navigator windows and have different conversations running independently
 - **Background processing**: Start a research task in one chat while planning your day in another
