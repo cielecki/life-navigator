@@ -1,0 +1,37 @@
+Copyright © 2025 Maciej Cielecki.  
+All rights reserved.
+
+END-USER LICENCE AGREEMENT (EULA)
+
+1. Grant of Licence  
+   You are granted a non-transferable, non-exclusive licence to install and use
+   this Obsidian plug-in ("Software") on any device you own or control, solely
+   with a licensed copy of Obsidian.
+
+2. Restrictions  
+   You may **not** (a) redistribute, publish, upload or sell the Software or any
+   copy of it; (b) modify, decompile, disassemble, reverse-engineer or create
+   derivative works, except as allowed by mandatory law; (c) remove proprietary
+   notices.
+
+3. Open-source components  
+   The Software may include third-party libraries covered by their own
+   licences.  Those licences are reproduced in `THIRD_PARTY_NOTICES.md` and
+   prevail over this EULA for the relevant components.
+
+4. Ownership  
+   Title and all intellectual-property rights in and to the Software remain
+   with Maciej Cielecki.
+
+5. Disclaimer of Warranty  
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+6. Limitation of Liability  
+   IN NO EVENT SHALL Maciej Cielecki BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY ARISING FROM THE SOFTWARE.
+
+7. Termination  
+   This licence terminates automatically if you breach its terms.
+
+8. Governing Law  
+   This EULA is governed by the laws of Poland. 
