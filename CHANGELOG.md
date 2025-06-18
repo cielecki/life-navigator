@@ -355,6 +355,7 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
 
 ## Unreleased
 
+- **Advanced Cache Validation**: Enhanced the Anthropic API caching system with content-based validation. Cache breakpoints now include checksums to verify content hasn't changed, preventing cache misses and improving cost transparency. When content changes invalidate cached data, users receive clear warnings about potential cost increases. This makes the caching system more reliable and helps users understand when their API costs might be higher due to cache invalidation.
 - **Polish Language Localization**: Completely fixed daily note missing tags displaying English content when Polish language is selected. Polish users now see fully localized missing note tags including tag names (dziennik_notatka_brak instead of daily_note_missing), day names (wtorek, środa) in both the date attribute and file paths, and Polish time labels (dzisiaj, 7 dni temu) instead of English equivalents.
 - **API Validation Fix**: Resolved cache_control validation error by properly applying cache control to content blocks instead of message level, as required by the Anthropic API.
 - **Performance Fix**: Significantly improved performance of the note editing tool, especially for large files or multiple edits. This resolves an issue where the plugin could hang or freeze during extensive edit operations.
@@ -369,6 +370,10 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
   - **Backward Compatibility**: Existing task workflows continue to work exactly as before - section awareness is opt-in enhancement
   - **Enhanced Task Tools**: task_check, task_add, and task_move tools now include section parameters for precise control over task placement within your document structure
   - **Fixed Section Map Serialization**: Resolved "sectionMap.get is not a function" error by implementing proper document cloning that preserves Map objects during task operations
+
+### ✨ Interface Polish
+
+- **Enhanced cost display precision**: Cost analysis now displays all costs with three decimal places for more precise tracking of API usage expenses
 
 ### 🐛 Bug Fixes
 
@@ -385,3 +390,14 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
 ### 🐛 Bug Fixes
 
 - **Fixed stuck generating state after tool abortion**: When users aborted tool creation and then sent a new message, the chat would get stuck in a generating state forever. Now aborted tool results are permanently stored in the conversation history, making them part of the permanent record like successful tool executions.
+
+### 🏗️ Architecture Improvements
+
+- **Unified chat storage**: Complete redesign of internal chat management with significantly improved performance and memory efficiency
+  - **Single source of truth**: Replaced dual storage system with unified conversation map
+  - **Smart memory management**: Runtime state only allocated for active chats, automatically cleaned up when chats are deactivated
+  - **Zero breaking changes**: Full backward compatibility maintained during transition
+  - **Enhanced API**: New `activateChat()`, `deactivateChat()`, `isChatActive()`, and `getActiveChatIds()` methods
+  - **Automatic state synchronization**: All chat operations now seamlessly sync between legacy and unified systems
+  - **Type-safe helpers**: Comprehensive TypeScript support with conversion utilities
+  - **Performance optimized**: Reduced memory usage and eliminated complex state synchronization overhead
