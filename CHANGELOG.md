@@ -4,7 +4,7 @@
 
 **Work on multiple tasks at once without switching contexts:**
 
-<img width="1048" alt="image" src="https://github.com/user-attachments/assets/3e706415-d17a-4b9e-947e-2cb304b04ab4" />
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/d083fe63-8d35-4494-92c6-7a2166b7e15c" />
 
 - **Parallel chats**: Open multiple Life Navigator windows and have different conversations running independently
 - **Background processing**: Start a research task in one chat while planning your day in another
@@ -28,11 +28,11 @@
 - **Automatic switching**: New delegated chats open automatically so you can see the results
 - **Automatic updates of old format**: AI can detect old format of modes and tools and repair it
 
-<img width="342" alt="image" src="https://github.com/user-attachments/assets/336c6f95-3535-4ac1-8675-fa182eef2125" />
+<img width="342" alt="image" src="https://github.com/user-attachments/assets/d9428730-1c3b-4819-8e9b-8f99e5f80396" />
 
 ### 🎙️ ElevenLabs Voice (Experimental)
 
-<img width="725" alt="image" src="https://github.com/user-attachments/assets/7d5ba79f-9bdf-4a1b-ab06-15892047a7bd" />
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/3dd8f753-34a5-43d9-8fd1-42482455fd07" />
 
 **Optional premium voice upgrade for advanced users:**
 
@@ -48,7 +48,7 @@
 - **Editable chat titles**: Click any chat title to rename it
 - **Better mode selector**: Mode dropdown moved closer to the input area
 
-<img width="379" alt="image" src="https://github.com/user-attachments/assets/baaa24d6-7bcb-40a7-9b41-89b89291ba4d" />
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/eaba24c6-cb61-4967-80d2-c01c6551343e" />
 
 - **Improved task navigation**: Click task results to jump to the exact location in your notes
 - **What's New modal**: See changelog after updates
@@ -355,9 +355,6 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
 
 ## Unreleased
 
-- **Advanced Cache Validation**: Enhanced the Anthropic API caching system with content-based validation. Cache breakpoints now include checksums to verify content hasn't changed, preventing cache misses and improving cost transparency. When content changes invalidate cached data, users receive clear warnings about potential cost increases. This makes the caching system more reliable and helps users understand when their API costs might be higher due to cache invalidation.
-- **Polish Language Localization**: Completely fixed daily note missing tags displaying English content when Polish language is selected. Polish users now see fully localized missing note tags including tag names (dziennik_notatka_brak instead of daily_note_missing), day names (wtorek, środa) in both the date attribute and file paths, and Polish time labels (dzisiaj, 7 dni temu) instead of English equivalents.
-- **API Validation Fix**: Resolved cache_control validation error by properly applying cache control to content blocks instead of message level, as required by the Anthropic API.
 - **Performance Fix**: Significantly improved performance of the note editing tool, especially for large files or multiple edits. This resolves an issue where the plugin could hang or freeze during extensive edit operations.
 - **Input Persistence**: Your typed messages and attached images now save automatically with each conversation. When you return to a chat after days or weeks, any text you were writing is still there, right where you left it.
 - **Persistent System Prompts**: System prompts are now generated once per chat and maintained consistently throughout the entire conversation, even across sessions. This ensures stable AI behavior and eliminates the inconsistency that could occur when context changed during long conversations. System prompts are cached per conversation and only regenerated when the mode changes, providing both performance benefits and consistent responses.
@@ -371,10 +368,6 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
   - **Enhanced Task Tools**: task_check, task_add, and task_move tools now include section parameters for precise control over task placement within your document structure
   - **Fixed Section Map Serialization**: Resolved "sectionMap.get is not a function" error by implementing proper document cloning that preserves Map objects during task operations
 
-### ✨ Interface Polish
-
-- **Enhanced cost display precision**: Cost analysis now displays all costs with three decimal places for more precise tracking of API usage expenses
-
 ### 🐛 Bug Fixes
 
 - **Fixed section-aware task insertion**: Tasks added to specific sections now properly appear in the final document. Fixed two critical issues:
@@ -386,18 +379,3 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
 - **Section-aware task management foundation**: Enhanced markdown parsing to understand document structure with heading hierarchy, enabling more intelligent task placement and organization within sections
 - **Improved data structures**: Tasks now track their section context for better organization and more precise manipulation
 - **Enhanced parsing capabilities**: Support for hierarchical section paths (e.g., "Daily Tasks > Morning > Routine") for future section-aware task operations
-
-### 🐛 Bug Fixes
-
-- **Fixed stuck generating state after tool abortion**: When users aborted tool creation and then sent a new message, the chat would get stuck in a generating state forever. Now aborted tool results are permanently stored in the conversation history, making them part of the permanent record like successful tool executions.
-
-### 🏗️ Architecture Improvements
-
-- **Unified chat storage**: Complete redesign of internal chat management with significantly improved performance and memory efficiency
-  - **Single source of truth**: Replaced dual storage system with unified conversation map
-  - **Smart memory management**: Runtime state only allocated for active chats, automatically cleaned up when chats are deactivated
-  - **Zero breaking changes**: Full backward compatibility maintained during transition
-  - **Enhanced API**: New `activateChat()`, `deactivateChat()`, `isChatActive()`, and `getActiveChatIds()` methods
-  - **Automatic state synchronization**: All chat operations now seamlessly sync between legacy and unified systems
-  - **Type-safe helpers**: Comprehensive TypeScript support with conversion utilities
-  - **Performance optimized**: Reduced memory usage and eliminated complex state synchronization overhead
