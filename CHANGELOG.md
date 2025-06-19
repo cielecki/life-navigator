@@ -1,3 +1,88 @@
+## Version 0.12.13 - June 16, 2025
+
+### 📋 Smart Task Organization
+
+**Your tasks now understand the structure of your documents:**
+
+Life Navigator's task management just got a major upgrade. When you organize your notes with headings like "## Morning Routine" or "### Work Tasks", the AI now respects these sections:
+
+- **Tasks stay in their sections**: When you check off a task, it moves to the top of its current section instead of jumping to the beginning of your note
+- **Add tasks to specific sections**: The AI can now place new tasks exactly where they belong - no more hunting through your document
+- **Works with nested sections**: Full support for complex document structures (like "Daily Tasks > Morning > Exercise")
+- **Nothing breaks**: All your existing task workflows continue working exactly as before
+
+### 🎙️ Smarter Audio Controls
+
+**One button to rule them all:**
+
+We've simplified audio controls with a single, intelligent microphone button that does exactly what you need:
+
+- **When audio is playing**: The microphone becomes a "Stop Audio" button
+- **When another chat is recording**: Shows "Stop Recording" to cancel that recording
+- **Clean interface**: Removed redundant buttons - everything is now in one place
+- **Always available**: The button is right where you need it, in the input area
+
+### 💬 Never Lose Your Work
+
+**Your conversations are now truly persistent:**
+
+- **Auto-saving messages**: Everything you type is automatically saved, even if you close the chat
+- **Return anytime**: Come back days or weeks later and your unfinished message is still there
+- **Attached images persist**: Images you've attached stay with your draft
+- **Consistent AI behavior**: System prompts are now cached per conversation, ensuring the AI behaves consistently throughout your entire chat
+
+### 🚦 Better Handling of Busy Periods
+
+**Life Navigator now gracefully handles API rate limits:**
+
+When Anthropic's servers are busy, instead of failing, Life Navigator:
+- Automatically retries your request with smart timing
+- Shows you what's happening with clear messages
+- Lets you cancel if you don't want to wait
+- Respects server guidelines to be a good API citizen
+
+### 🔒 Privacy First
+
+**New privacy policy makes our practices crystal clear:**
+
+- **Easy access**: Find it in Settings or the chat menu (⋯)
+- **Plain language**: No legal jargon - just clear explanations
+- **Your data stays yours**: Local storage, no telemetry, you control what's shared
+- **Transparent AI usage**: Clear explanation of what goes to AI providers
+
+Access via: Settings → Life Navigator Actions → "Privacy Policy"
+
+### 📝 Conversation Length Management
+
+**Know when your chat is getting too long:**
+
+- **Smart notifications**: Get alerted when your conversation might be too long for the AI
+- **Works with caching**: Even cached conversations show accurate length warnings
+- **Take action**: Clear guidance on what to do when chats get lengthy
+
+### 🐛 Important Fixes
+
+**Making Life Navigator more reliable:**
+
+- **Fixed chat delegation**: When AI creates new chats with different modes, they now work correctly
+- **Faster note editing**: Resolved performance issues with large files or multiple edits
+- **Better mobile experience**: Long-press on tool blocks no longer triggers text selection on iOS
+- **Improved UI polish**: Tool icons behave properly when expanding/collapsing blocks
+- **Voice transcription**: Failed transcriptions now show clear retry options
+
+### 🎯 What This Means for You
+
+This update focuses on making Life Navigator more intelligent and reliable:
+
+- **Smarter organization**: Your tasks and notes stay organized the way you structure them
+- **Less frustration**: Better handling of errors, rate limits, and edge cases  
+- **Cleaner interface**: Simplified controls that do what you expect
+- **Peace of mind**: Your work is always saved, and your privacy is respected
+
+Simply update Life Navigator and enjoy these improvements - no action required on your part!
+
+---
+
 ## Version 0.12.1 - June 15, 2025
 
 ### 🚀 Multiple Conversations Running Simultaneously
@@ -352,30 +437,3 @@ Have your ai use `` `🧭 tools_list()` `` to see all available tools for your c
 - **Better mobile editing**: Edit messages using the full input area instead of tiny inline boxes - much better on phones
 - **Conversation history**: Save, search, and return to past conversations. Edit titles, add tags, and continue where you left off
 - **Cleaner AI context**: Improved how AI processes your notes for better responses
-
-## Unreleased
-
-- **Performance Fix**: Significantly improved performance of the note editing tool, especially for large files or multiple edits. This resolves an issue where the plugin could hang or freeze during extensive edit operations.
-- **Input Persistence**: Your typed messages and attached images now save automatically with each conversation. When you return to a chat after days or weeks, any text you were writing is still there, right where you left it.
-- **Persistent System Prompts**: System prompts are now generated once per chat and maintained consistently throughout the entire conversation, even across sessions. This ensures stable AI behavior and eliminates the inconsistency that could occur when context changed during long conversations. System prompts are cached per conversation and only regenerated when the mode changes, providing both performance benefits and consistent responses.
-- **Simplified Anthropic Caching**: System prompts now use a single optimized caching block instead of multiple sections, improving cache efficiency and reducing API costs while maintaining the same functionality.
-- **Smart Rate Limit Handling**: Life Navigator now automatically handles Anthropic API rate limits with intelligent retry logic. When rate limits are hit, requests are automatically retried with exponential backoff (starting at 1 second, doubling with each attempt). The system respects Anthropic's retry-after headers and includes jitter to prevent thundering herd effects. Users see informative messages during retries and can cancel operations at any time. This makes the experience much smoother during high usage periods.
-- **Section-Aware Task System**: Revolutionary enhancement to task management that respects your document structure. Tasks now understand markdown sections (headings) and behave intelligently within them:
-  - **Smart Task Completion**: When you check off tasks, they now move to the top of their current section instead of the document beginning, keeping your sections organized
-  - **Section-Targeted Task Operations**: All task tools now support optional section targeting - add tasks directly to specific sections, move tasks between sections, and complete tasks with precise placement control
-  - **Hierarchical Section Support**: Full support for nested sections (h1 > h2 > h3, etc.) with section paths like ["Daily Tasks", "Morning Routine"]
-  - **Backward Compatibility**: Existing task workflows continue to work exactly as before - section awareness is opt-in enhancement
-  - **Enhanced Task Tools**: task_check, task_add, and task_move tools now include section parameters for precise control over task placement within your document structure
-  - **Fixed Section Map Serialization**: Resolved "sectionMap.get is not a function" error by implementing proper document cloning that preserves Map objects during task operations
-
-### 🐛 Bug Fixes
-
-- **Fixed section-aware task insertion**: Tasks added to specific sections now properly appear in the final document. Fixed two critical issues:
-  1. **Section parsing bug**: Sections at the same level were being incorrectly nested inside each other instead of being siblings at the document root
-  2. **Object reference bug**: After document cloning, section map references were pointing to original objects instead of cloned ones, causing modifications to be lost
-
-### 🏗️ Infrastructure Improvements
-
-- **Section-aware task management foundation**: Enhanced markdown parsing to understand document structure with heading hierarchy, enabling more intelligent task placement and organization within sections
-- **Improved data structures**: Tasks now track their section context for better organization and more precise manipulation
-- **Enhanced parsing capabilities**: Support for hierarchical section paths (e.g., "Daily Tasks > Morning > Routine") for future section-aware task operations
