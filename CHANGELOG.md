@@ -1,4 +1,4 @@
-## Version 0.12.13 - June 16, 2025
+## Version 0.12.14 - June 16, 2025
 
 ### 📋 Smart Task Organization
 
