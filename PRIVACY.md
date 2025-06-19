@@ -1,5 +1,3 @@
-# Privacy Policy
-
 *Your privacy and data control are fundamental to how Life Navigator works*
 
 Last updated: January 2025
