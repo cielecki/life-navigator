@@ -1,3 +1,47 @@
+## Version 0.12.15 - June 20, 2025
+
+### ⚡ Lightning-fast chat experience
+
+The biggest improvement in this release is a complete overhaul of chat handling. Every keystroke now responds instantly, and your conversations are bulletproof - no more lost messages, no more delays. We've eliminated over 200 problematic code patterns that could cause race conditions, making Life Navigator more stable than ever.
+
+### 🎨 Redesigned conversation interface
+
+**Empty screen visualization** - The empty conversation screen has been completely reworked. You can now see your system prompt right at the top, making it clear what context the AI is working with.
+
+**Smarter chat warnings** - When your conversation gets long, the warning messages now make more sense and provide better guidance on when to start a new chat.
+
+**Better visual feedback** - New gradient-based warning designs replace harsh red borders throughout the interface.
+
+### 📝 Enhanced mode features
+
+**Clickable mode headers** - Click on the mode name or icon in the empty chat screen to quickly edit that mode file.
+
+**Custom display names** - Mode creators can now add friendly names to their example prompts: `What users see | The actual prompt`.
+
+### 🔧 Important fixes
+
+**Mode persistence restored** - Fixed regression where Life Navigator would forget your last used mode between sessions.
+
+**Voice consistency** - Assistant responses now use the correct voice settings from their original mode.
+
+**Tool improvements**:
+- Task operations now properly preserve YAML frontmatter
+- Vault search now supports recursive searching and better filtering
+- Tool parameter validation provides clear error messages instead of silent failures
+- The date/time tool now includes week numbers for better weekly planning.
+
+**Performance** - Eliminated duplicate chat loading for faster startup times.
+
+### 🌐 Language updates
+
+- Refined Polish translations throughout the interface
+- All system warnings now properly display in your selected language
+
+### 💻 Under the hood
+
+Complete state management overhaul with atomic updates ensures data integrity. Tool results save directly to conversations in real-time, reducing complexity while improving reliability.
+
+
 ## Version 0.12.14 - June 16, 2025
 
 ### 📋 Smart Task Organization
