@@ -23,7 +23,7 @@ Format: `` `🧭 periodic_notes(types=["daily"], start_date={offset: X, unit: "d
 
 ### Current Date and Time
 Format: `` `🧭 current_date_time()` ``
-Expands to the current date and time in ISO format.
+Expands to the current date and time in human-readable format, including the current week number with proper localization (e.g., "Monday, March 18, 2024 2:30 PM (Week 12)" in English).
 
 ### Current File and Selection
 Format: `` `🧭 current_file_and_selection()` ``

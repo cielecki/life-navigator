@@ -38,6 +38,7 @@ tools_allowed:
 tools_disallowed: []
 example_usages:
   - "Example message to trigger this mode"
+  - "Short Name | Longer descriptive prompt that gets sent to the AI"
 ---
 
 # Your Mode Name
@@ -112,6 +113,32 @@ tools_disallowed:
   - "task_delete"     # Prevent task deletion
   - "*financial*"    # No financial tools
 ```
+
+### Example Usage Configuration
+
+**`example_usages`**: Quick-start prompts for the mode
+- Displayed as clickable pills in empty conversation view
+- Supports special format for custom display names
+
+**Standard Format:**
+```yaml
+example_usages:
+  - "This exact text will be displayed and sent as the prompt"
+```
+
+**Display Name Format (with vertical line separator):**
+```yaml
+example_usages:
+  - "Quick Label | This longer prompt will be sent to the AI"
+  - "Debug Tool | Help me debug this JavaScript error in my custom tool"
+  - "Create API | Create a tool that fetches data from an external API"
+```
+
+**How it works:**
+- Everything before the `|` is shown as the pill text (trimmed of whitespace)
+- Everything after the `|` is sent as the actual prompt (trimmed of whitespace)  
+- If there's no `|`, the text is both displayed and sent as-is
+- This allows for short, readable pills with longer, more descriptive prompts
 
 ### Performance Settings
 
@@ -415,7 +442,7 @@ tools_disallowed:
   - "task_*"
 example_usages:
   - "Help me learn about quantum computing"
-  - "Create a study plan for learning Spanish"
+  - "Spanish Plan | Create a study plan for learning Spanish"
 ---
 
 # Learning Assistant

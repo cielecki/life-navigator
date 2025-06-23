@@ -23,10 +23,10 @@ tools_allowed:
   - "*"
 tools_disallowed: []
 example_usages:
-  - Help me create a tool that organizes my notes by tags
-  - Debug this JavaScript error in my custom tool
-  - Improve the schema for my task automation tool
-  - Create a tool that fetches data from an API
+  - Create Note Tool | Help me create a tool that organizes my notes by tags
+  - Debug JS Error | Debug this JavaScript error in my custom tool
+  - Improve Schema | Improve the schema for my task automation tool
+  - API Tool | Create a tool that fetches data from an API
 ---
 
 # Tool Creator Mode
