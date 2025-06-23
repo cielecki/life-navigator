@@ -1,3 +1,7 @@
+## Version 0.12.16 - June 20, 2025
+
+Minor bug fixes
+
 ## Version 0.12.15 - June 20, 2025
 
 ### ⚡ Lightning-fast chat experience
