@@ -2,6 +2,76 @@
 
 This index catalogs all files in the Life Navigator library with descriptions and use cases to help AI determine when files should be downloaded or referenced for specific user contexts.
 
+## Onboarding Level Mapping
+
+This section maps library content to the 6-level progressive onboarding system:
+
+### 🎯 Level 1: Essential Foundation (First Configuration Level)
+**Required Library Content**:
+- `Modes/Navigator.md` - Primary mode for daily task management
+- `Templates/Daily Note Template.md` - Structured daily note template
+- Task format understanding from documentation
+
+**What to Create**:
+- "O mnie.md" with "Moje cele" section
+- "Main Backlog.md" for task dumping
+- Daily note template configuration
+
+**Optional Helpers**:
+- `Docs/User Guide.md` - For understanding basic concepts
+- `Docs/Onboarding Guide.md` - For detailed level instructions
+
+### 📅 Level 2: Time Mastery  
+**Required Library Content**:
+- Template examples for periodic notes (yearly, quarterly, monthly)
+- `Info/Details/Day Structure.md` - For understanding planning methodology
+- Directives documentation for automated workflows
+
+**Optional Helpers**:
+- `Modes/Planner.md` - For advanced planning assistance
+
+### 🎭 Level 3: Life Roles System
+**Required Library Content**:
+- Role structure examples and templates
+- `Info/Details/Role Models.md` - Example of role model integration
+- `Info/Details/Relationships.md` - Example of relationship tracking
+
+**Optional Helpers**:
+- Role-specific mode recommendations
+
+### 🚀 Level 4: Advanced Modes & Guidelines
+**Required Library Content**:
+- `Modes/Curator.md` - For vault organization and information architecture
+- `Modes/Reflection.md` - For deep introspection and personal growth
+- `Modes/Strategy.md` - For long-term planning and vision
+- `Modes/Writer.md` - For content creation and copywriting
+- Guidelines concept - mode-specific instructions loaded on demand
+
+**Optional Helpers**:
+- `Docs/Mode Development Guide.md` - For customizing modes
+- Create "Wytyczne/" directory with specific how-to guides
+
+### 🛠️ Level 5: Custom Tools & Projects
+**Required Library Content**:
+- `Tools/` directory - All available tools for download
+- `Docs/Tools.md` - Tool documentation
+- `Docs/User Defined Tools.md` - For understanding tool system
+
+**What to Create**:
+- "Narzędzia/" directory for tools
+- "Projekty/" directory for complex projects with multiple files
+
+**Optional Helpers**:
+- `Modes/Tool Creator.md` - For tool development assistance (Level 6)
+- `Tools/Template Tool.md` - Basic tool template
+
+### 🎨 Level 6: Power User
+**Required Library Content**:
+- `Docs/User Defined Tools.md` - Complete tool development guide
+- `Docs/Mode Development Guide.md` - Complete mode creation guide
+- `Docs/Validation Tools.md` - For quality assurance
+- All example modes and tools for reference
+
 ## Info - Core Information Files
 
 ### Personal Information
@@ -59,36 +129,32 @@ This index catalogs all files in the Life Navigator library with descriptions an
 
 ## Modes - AI Assistant Personalities
 
-### Productivity & Organization
-- **Path**: `Modes/Assistant.md`
-- **Description**: Primary virtual assistant mode (male) for journaling, task management, and daily organization with emphasis on efficiency, minimal conversation, and proactive task completion
-- **Use When**: User wants to check off tasks, add completed activities, manage daily notes, needs straightforward task-focused assistance, or wants low-maintenance interaction
+### Level 1 - Essential Foundation
+- **Path**: `Modes/Navigator.md`
+- **Description**: Your daily commander - organizes day, manages tasks, and guides through current activities with low-maintenance, action-oriented approach
+- **Use When**: Daily task management, checking off completed items, planning priorities, getting "what's next" guidance, adding notes and activities
 
-- **Path**: `Modes/Planner.md`
-- **Description**: Strategic planning assistant that follows the 18-step Day Structure procedure, analyzes previous days, assesses procedure effectiveness, and provides contextual planning guidance
-- **Use When**: User asks to plan any specific day, needs help organizing complex schedules, wants strategic thinking about time management, or requires systematic daily planning
-
-### Specialized Assistants
-- **Path**: `Modes/Analytics.md`
-- **Description**: Personal data analyst and accountability partner with 30-day context for thorough pattern analysis, correlation discovery, and data-driven insights. Meticulously examines daily notes to identify trends in productivity, health, habits, relationships, and goal progress
-- **Use When**: User wants analysis of their patterns, needs accountability conversations, asks about productivity trends, health correlations, habit effectiveness, or wants data-driven insights about their lifestyle
+### Level 4 - Advanced Modes
+- **Path**: `Modes/Curator.md`
+- **Description**: Vault consistency specialist - organizes structures, maintains order, manages information architecture with systematic precision
+- **Use When**: Organizing vault structure, fixing broken links, creating information hierarchies, cleaning duplicates, optimizing findability
 
 - **Path**: `Modes/Reflection.md`
-- **Description**: Female coaching mode for introspection and personal growth with 30-day context, role model perspectives, and guidance on life alignment with values and priorities
-- **Use When**: User wants to reflect on experiences, needs emotional support, discussing personal growth, processing events, or seeking perspective on life patterns and decisions
+- **Description**: Coach for introspection and personal growth with deep context, helping process experiences and align life with values
+- **Use When**: Processing emotions, seeking life perspective, personal growth discussions, understanding patterns, making sense of experiences
 
+- **Path**: `Modes/Strategy.md`
+- **Description**: Master of long-term planning - creates strategies, visions, roadmaps and guides through big goals with pragmatic realism
+- **Use When**: Long-term planning, creating life vision, major decision making, strategic pivots, designing future lifestyle
+
+- **Path**: `Modes/Writer.md`
+- **Description**: Specialist for creating diverse content - from songs and articles to social media posts and Suno briefs with professional quality
+- **Use When**: Writing songs for Suno, creating social media content, drafting articles, copywriting, editing texts, content creation
+
+### Level 6 - Power User
 - **Path**: `Modes/Tool Creator.md`
-- **Description**: Technical assistant specialized in creating, debugging, and improving user-defined tools with comprehensive JavaScript and JSON schema guidance, examples, and best practices
-- **Use When**: User wants to create custom tools, needs help with coding, debugging tool issues, optimizing tool performance, or learning about Life Navigator's development capabilities
-
-### Creative & Casual
-- **Path**: `Modes/Songwriter.md`
-- **Description**: Creative assistant for generating song descriptions for Suno AI platform, including style descriptions and properly formatted lyrics with specific Suno syntax rules
-- **Use When**: User wants to create music, write songs for Suno AI, needs creative inspiration for musical projects, or wants to generate audio content
-
-- **Path**: `Modes/Bro.md`
-- **Description**: Motivational workout buddy/coach mode with direct, energetic communication style focused on action-oriented advice and identifying next optimal tasks
-- **Use When**: User needs motivation, wants direct action-focused advice, requires energy boost, or prefers masculine, no-nonsense interaction style
+- **Description**: Technical assistant specialized in creating, debugging, and improving user-defined tools with comprehensive JavaScript guidance
+- **Use When**: Creating custom tools, debugging JavaScript, understanding Life Navigator APIs, building automation workflows
 
 ## Docs - Documentation
 

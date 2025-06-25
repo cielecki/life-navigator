@@ -54,6 +54,12 @@ This allows AI to access dynamic, real-time content when analyzing notes, making
 - `append`: Add content to the end of the document
 - `prepend`: Add content to the beginning of the document
 
+**Remove Operations:**
+- `remove`: Delete specific text from the document
+- Requires only `search_text` parameter (no content needed)
+- Removes first occurrence of the specified text
+- Supports same text matching as other operations (handles line endings, tabs, spaces)
+
 **Usage Examples:**
 ```json
 {
@@ -68,6 +74,10 @@ This allows AI to access dynamic, real-time content when analyzing notes, making
       "type": "insert_after",
       "search_text": "## Research Notes",
       "content": "\n\n### Key Findings\n- Important discovery"
+    },
+    {
+      "type": "remove",
+      "search_text": "Outdated information to delete"
     },
     {
       "type": "append",
