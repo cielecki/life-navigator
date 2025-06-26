@@ -15,16 +15,6 @@ Join our community:
   <a href="https://discord.gg/VrxZdr3JWH">
     <img src="https://img.shields.io/badge/Discord-Server-5865F2.svg?logo=discord&label=Life%20Navigator%20Community&style=flat" alt="Discord">
   </a>
-  
-  <br><br>
-  
-  <strong>🎯 <a href="https://calendly.com/maciej-cielecki/new-meeting">Book a Free Personal Onboarding Session with the author</a></strong>
-  <br>
-  Get expert guidance to start your Life Navigator journey
-  
-  <br><br>
-  
-  Follow <a href="http://x.com/mcielecki">@mcielecki</a> for updates
 </div>
 
 ## The Obsidian Plugin
@@ -56,10 +46,10 @@ All your personal information is stored locally in your Obsidian vault on your p
 
 ### Getting Started
 
+1. Since Life Navigator AI onboarding agent is a work in progress, it's advised at this stage to [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get expert guidance
 1. [Install Life Navigator](library/en/Docs/Installation.md) in your Obsidian vault
 2. Complete the guided setup with language selection and API key configuration
 3. Start using the pre-built LifeNavigator mode or create your own custom modes or download additional modes from the [Life Navigator Library](library/)
-4. **Optional**: [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get expert guidance
 
 ### Documentation
 
@@ -72,6 +62,7 @@ Join our growing community of Life Navigator users:
 
 - **[Discord Server](https://discord.gg/VrxZdr3JWH)** - Get help, share experiences, and connect with other users
 - **[Issues](https://github.com/cielecki/life-navigator/issues)** - Bug reports and technical issues
+- **[Author's X.com profile](http://x.com/mcielecki)** - Follow for updates
 
 ### Current Status
 
