@@ -1,6 +1,149 @@
+## Version 0.13.2 - June 26, 2025
+
+### 🎯 Your Personal Growth Journey Starts Here
+
+**Introducing the 6-Level Life Navigator Mastery System:**
+
+Life Navigator now guides you through a structured journey from beginner to power user. No more overwhelm - start simple and advance at your own pace:
+
+- **Level 1 (Essential Foundation)**: Start with daily notes, basic task management, and the Navigator mode
+- **Level 2 (Time Mastery)**: Add weekly, monthly, and quarterly planning with Periodic Notes
+- **Level 3 (Life Roles)**: Define your 8 life roles like "Nurturing Parent" or "Visionary Entrepreneur"
+- **Level 4 (Advanced Modes)**: Unlock specialized AI assistants for writing, reflection, and strategy
+- **Level 5 (Automation)**: Use library tools for weather, research, and workflow automation
+- **Level 6 (Power User)**: Create your own custom modes and tools
+
+Each level unlocks new capabilities while keeping everything you've learned working smoothly. The Guide mode shows your progress visually and helps you advance when you're ready.
+
+### 🤖 Redesigned AI Assistants (Modes)
+
+**Meet your new specialized AI team, each designed for specific life contexts:**
+
+We've completely reimagined Life Navigator's modes based on real user needs and the 6-level progression system:
+
+**New Specialized Modes:**
+- **Guide** (Always available): Your Life Navigator teacher - assesses your progress, provides tutorials, and helps you advance through levels
+- **Navigator** (Level 1): Your daily commander - manages tasks, executes directives, and keeps you on track with minimal conversation
+- **Curator** (Level 4): Your vault organizer - helps structure notes, manage projects, and maintain your knowledge system
+- **Reflection** (Level 4): Your introspection guide - analyzes patterns, provides insights, and helps you understand yourself better
+- **Strategy** (Level 4): Your planning partner - focuses on long-term goals, quarterly planning, and life direction
+- **Writer** (Level 4): Your creative companion - assists with content creation, writing projects, and creative expression
+
+**What's changed:**
+- **Removed outdated modes**: Said goodbye to Assistant, Planner, Analytics, Songwriter, and Bro - their best features live on in the new modes
+- **Context-aware design**: Each mode now intelligently loads relevant context using the expand system
+- **Progressive availability**: Modes unlock as you advance through levels, preventing overwhelm
+- **Clearer purposes**: Each mode has a specific role rather than overlapping functionalities
+
+The new modes are more focused, more intelligent, and better integrated with your Life Navigator journey.
+
+### 📋 Smarter Task Management
+
+**Your tasks now understand your document structure:**
+
+- **Section-aware tasks**: Tasks stay in their sections (like "## Morning Routine") when checked off
+- **Precise task placement**: Add new tasks exactly where they belong in your document hierarchy
+- **Visual task tracking**: See exactly what changed with intelligent highlighting after every operation
+- **Clean reorganization**: Move tasks within the same file without unnecessary tracking markers
+- **Rock-solid reliability**: Fixed all "task not found" errors - tasks in any section work perfectly
+
+### 📝 Smart Templates with AI-Powered Directives
+
+**Your templates now think and adapt with embedded AI tasks:**
+
+Life Navigator revolutionizes how templates work with two powerful features:
+
+**Virtual Templates** - Work with notes that don't exist yet:
+- **Preview templates**: See template content for future notes before they're created
+- **Smart creation**: Templates automatically materialize when you start editing
+- **Template validation**: Know which templates are configured correctly at a glance
+- **Seamless workflow**: AI understands the difference between real notes and templates
+
+**Dynamic Directives** - AI tasks embedded in your templates:
+- **Intelligent processing**: `%% remove this section if this is not a Friday note %%` - AI analyzes context and removes irrelevant content
+- **Smart reminders**: `%% Remove if already done this month %%` - AI checks your history and keeps only what's needed
+- **Interactive setup**: `%% ask me about what's specific for today %%` - AI engages in conversation to personalize your day
+- **Contextual decisions**: AI evaluates conditions like day of week, previous completions, and your personal patterns
+
+**How it works**: Templates contain AI task markers (`%% ... %%`) that tell Navigator what to do. When you run "Execute directives" in Navigator mode, the AI processes each instruction: removing Saturday-only tasks on weekdays, asking you about today's specific events, checking if monthly tasks are already done, and more. Your templates remain generic while your daily notes become perfectly personalized through AI intelligence.
+
+### 🎨 Beautiful Interface Updates
+
+**Every interaction is now more delightful:**
+
+- **Drag & drop images**: Simply drag images from your computer or vault into any conversation
+- **Elegant warnings**: Gradient-based notifications replace harsh red borders throughout
+- **Responsive design**: Usage examples adapt perfectly on mobile screens
+- **System prompt visibility**: See your AI's context right in the empty chat screen
+- **Clickable mode headers**: Click any mode name to quickly edit its configuration
+
+### ⚡ Lightning-Fast Performance
+
+**Everything responds instantly:**
+
+- **Bulletproof conversations**: Eliminated 200+ race conditions - no more lost messages
+- **Instant input**: Every keystroke responds immediately, even when typing very fast
+- **Smart caching**: Conversations load once and stay lightning-fast
+- **Atomic updates**: All changes happen in single transactions for perfect reliability
+
+### 🎙️ Improved Voice Experience
+
+**More natural conversations:**
+
+- **Consistent voices**: AI responses use the correct voice from their original mode
+- **Smart audio controls**: One button intelligently handles play, stop, and recording
+- **Better accessibility**: Screen readers now understand all interface elements
+- **Language-aware dates**: "Tomorrow" and "yesterday" work naturally in your language
+
+### 🔧 Power User Enhancements
+
+**For those who love the details:**
+
+- **Remove text operation**: New note editing capability to delete specific content
+- **Auto-refreshing prompts**: System prompts update when you edit your first message
+- **Week numbers**: Current date/time tool now includes ISO week numbers
+- **File resolution**: Tools now find existing files consistently using Obsidian's link system
+- **Shift+click new chat**: Open new conversations in separate tabs for parallel work
+
+### 🌟 Quality of Life Improvements
+
+**Hundreds of small fixes that make a big difference:**
+
+- Chat history only shows saved conversations, not empty drafts
+- Failed transcriptions now show clear retry options  
+- Privacy policy accessible from settings and chat menu
+- Tab creation actually creates new chats instead of duplicating
+- Polish number formatting uses proper pluralization rules
+- Mobile long-press no longer accidentally selects text
+- Directory expansion includes all files when using 🧭 expand
+- Help button creates new Guide chat without interrupting current work
+
+### 📚 New Library Content
+
+**Ready-to-use templates and resources:**
+
+- **8 Life Role templates**: From "Devoted Partner" to "Wealth Builder" with goals and strategies
+- **5 Time-based templates**: Daily, weekly, monthly, quarterly, and yearly note structures with embedded AI tasks
+- **Structured daily template**: Morning planning, task sections, evening reflection - all with AI-powered personalization
+- **Directives documentation**: Complete guide on how AI processes template instructions
+- **Bilingual everything**: All content available in both English and Polish
+- **Project management**: Dedicated project structure with backlogs and organization
+
+### 🚀 What This Means for You
+
+This is our biggest update yet, transforming Life Navigator from a powerful tool into a complete life management system. Whether you're just starting your productivity journey or you're ready to build custom automations, version 0.13.2 grows with you.
+
+**Getting started is easier than ever**: The new onboarding system guides you step-by-step, and you can stay at any level as long as you like. Most users find Level 1 gives them everything they need for daily productivity.
+
+**Your existing setup is safe**: All your current modes, tools, and workflows continue working exactly as before. The new features enhance what you have without changing anything.
+
+Simply update Life Navigator and let the Guide mode show you what's new. Welcome to your personalized productivity journey!
+
+
 ## Version 0.12.16 - June 20, 2025
 
 Minor bug fixes
+
 
 ## Version 0.12.15 - June 20, 2025
 
