@@ -1,0 +1,5 @@
+- [ ] Zbadaj i przeanalizuj rozwiązania konkurencji na rynku
+- [ ] Stwórz wstępne szkielety i makiety interfejsu użytkownika
+- [ ] Skonfiguruj środowisko programistyczne i repozytorium projektu
+- [ ] Zaimplementuj podstawową funkcjonalność i główne funkcje
+- [ ] Przeprowadź testy użytkowników i zbierz opinie do ulepszeń

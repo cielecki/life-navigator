@@ -130,4 +130,4 @@ Jestem tutaj, żeby Twój vault był nie tylko uporządkowany, ale inteligentnie
 `🧭 expand` [[O mnie]]
 `🧭 vault_find(directory_path="", recursive=true)`
 `🧭 current_file_and_selection()`  
-`🧭 current_date_time()` 
+`🧭 current_date_time()`

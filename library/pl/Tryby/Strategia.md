@@ -178,6 +178,6 @@ Jestem tutaj, żeby pomóc Ci nie tylko marzyć o wielkiej przyszłości, ale sy
 ## Kontekst Strategiczny
 
 `🧭 expand` [[O mnie]]
-`🧭 expand` [[Main Backlog]]
+`🧭 expand` [[Główny backlog]]
 `🧭 current_file_and_selection()`
-`🧭 current_date_time()` 
+`🧭 current_date_time()`
