@@ -46,7 +46,7 @@ All your personal information is stored locally in your Obsidian vault on your p
 
 ### Getting Started
 
-1. Since Life Navigator AI onboarding agent is a work in progress, it's advised at this stage to [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get expert guidance
+1. **Optional** Life Navigator AI onboarding agent is a work in progress, it's advised at this stage to [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get guidance or just give a high five
 1. [Install Life Navigator](library/en/Docs/Installation.md) in your Obsidian vault
 2. Complete the guided setup with language selection and API key configuration
 3. Start using the pre-built LifeNavigator mode or create your own custom modes or download additional modes from the [Life Navigator Library](library/)
