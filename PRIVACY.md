@@ -162,8 +162,8 @@ You can view the complete history of this privacy policy in our [GitHub reposito
 ### Contact and Questions
 
 **For privacy-related questions:**
-- Review our [documentation](https://github.com/cielecki/life-navigator/tree/main/docs)
-- Check [GitHub discussions](https://github.com/cielecki/life-navigator/discussions) for community support
+- Review our [documentation](https://github.com/cielecki/life-navigator/tree/main/library/en/Docs)
+- Join our [Discord server](https://discord.gg/VrxZdr3JWH) for community support
 - Submit issues through [GitHub](https://github.com/cielecki/life-navigator/issues)
 
 **For data handling by AI providers:**

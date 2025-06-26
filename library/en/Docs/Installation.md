@@ -99,4 +99,4 @@
 
 ## Next Steps
 
-After completing the installation and setup, please refer to the [User Guide](user-guide.md) for detailed instructions on how to use Life Navigator effectively. The guide will walk you through exploring the available features, customizing your experience, and using the different AI modes.
+After completing the installation and setup, please refer to the [User Guide](User%20Guide.md) for detailed instructions on how to use Life Navigator effectively. The guide will walk you through exploring the available features, customizing your experience, and using the different AI modes.

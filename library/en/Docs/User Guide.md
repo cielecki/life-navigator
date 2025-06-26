@@ -1,6 +1,6 @@
 # Life Navigator User Guide
 
-**Note:** This guide assumes you have already installed Life Navigator and completed the initial setup. If you haven't installed the plugin yet, please follow the [Installation Guide](installation.md) first.
+**Note:** This guide assumes you have already installed Life Navigator and completed the initial setup. If you haven't installed the plugin yet, please follow the [Installation Guide](Installation.md) first.
 
 Life Navigator is an AI-powered personal assistant plugin for Obsidian that helps you with daily planning, reflection, habit building, and life guidance. Unlike generic AI chatbots, Life Navigator knows your personal context and can provide tailored advice based on your goals, preferences, and daily patterns.
 
@@ -35,7 +35,7 @@ Life Navigator uses a special linking system to control what information the AI 
 - **Range tools** `🧭 periodic_notes(types=["daily"], start_date={offset: -3, unit: "days"}, end_date={offset: 0, unit: "days"})` - Includes multiple periodic notes in a range (e.g., last 3 days to today)
 
 
-Learn more about the link system in the [link-expansion](link-expansion.md) document.
+Learn more about the link system in the [Link Expansion](Link%20Expansion.md) document.
 
 ## Getting Started: The Setup Process
 
@@ -73,27 +73,31 @@ Life Navigator features a comprehensive guided setup process that ensures you're
 
 Life Navigator includes several pre-configured AI personalities:
 
-**Assistant** - General-purpose helper
-- Task management, scheduling, answering questions
-- Best for: Logging notes, managing and checking off your daily tasks
-
-**Planner** - Focused on daily planning
-- Creates detailed daily schedules based on your Day Structure
-- Best for: Morning planning sessions, schedule optimization
-
-**Bro** - Motivational coach
-- Direct, encouraging, designed to push you through procrastination and resistance
-- Best for: Motivation, accountability, breaking through mental blocks
+**Navigator** - Your daily commander
+- Organizes the day, manages tasks and guides through current affairs
+- Best for: Task management, daily planning, checking off tasks
 
 **Reflection** - Thoughtful advisor
 - Contemplative, wise personality for deeper thinking, using your role models and values
 - Best for: Processing emotions, gaining insights, philosophical discussions
 
+**Strategy** - Master of long-term planning
+- Creates strategies, visions, roadmaps and guides through big goals
+- Best for: Long-term planning, goal setting, strategic decisions
+
+**Writer** - Creative writing assistant
+- Helps with any written content creation
+- Best for: Writing tasks, content creation, drafting documents
+
+**Curator** - Knowledge base organizer
+- Maintains and organizes your knowledge base
+- Best for: Note organization, finding connections, maintaining your vault
+
 ## Daily Workflow
 
 ### Morning Planning
 
-1. Open Life Navigator and select the **Planner** mode
+1. Open Life Navigator and select the **Navigator** or **Strategy** mode
 2. Say or type: "Plan my day" or "What should I do today?"
 3. The AI will ask about your calendar and energy levels
 4. It creates a detailed plan based on your Day Structure and current priorities
@@ -152,7 +156,7 @@ Each mode can be extensively customized:
 
 **Changing Personality:**
 - Edit the system prompt in any mode file
-- Example: Make Bro less aggressive or change gender presentation
+- Example: Modify the Navigator's tone or change the Writer's creativity level
 - Modify language style, tone, and approach
 
 **Voice Settings:**
@@ -256,7 +260,7 @@ Life Navigator excels at helping you build habits and recognize patterns:
 
 ## Controlling what goes into AI's context
 
-- Only information in files linked from files defining the modes like `Planner.md` with `🧭` symbols
+- Only information in files linked from files defining the modes like `Navigator.md` with `🧭` symbols
 - Recent daily notes (if configured in the mode)
 - Current date and time (if configured in the mode)
 - Current conversation context

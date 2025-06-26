@@ -1,7 +1,7 @@
 # Life Navigator Project
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/430e7b0d-4d7c-4e41-8738-00ff9eb361a2" width="300" alt="Life Navigator Project Logo">
+  <img src="./logo.png" width="300" alt="Life Navigator Project Logo">
 </div>
 
 > AI has the potential to make us more human from the inside out as no tool has ever done before.
@@ -15,6 +15,16 @@ Join our community:
   <a href="https://discord.gg/VrxZdr3JWH">
     <img src="https://img.shields.io/badge/Discord-Server-5865F2.svg?logo=discord&label=Life%20Navigator%20Community&style=flat" alt="Discord">
   </a>
+  
+  <br><br>
+  
+  <strong>🎯 <a href="https://calendly.com/maciej-cielecki/new-meeting">Book a Free Personal Onboarding Session with the author</a></strong>
+  <br>
+  Get expert guidance to start your Life Navigator journey
+  
+  <br><br>
+  
+  Follow <a href="http://x.com/mcielecki">@mcielecki</a> for updates
 </div>
 
 ## The Obsidian Plugin
@@ -28,10 +38,11 @@ Unlike generic ChatGPT, Life Navigator's AI has access to your personal context,
 
 #### 🎭 **Multiple Customizable AI Personalities (Modes)**
 Switch between different AI personalities based on your needs:
-- **Assistant Mode**: General-purpose helper for tasks, scheduling, and information management
-- **Reflection Mode**: Thoughtful, contemplative personality that can help with identify patterns you might miss or alerting you to correlations (like mood and sleep)
-- **Planner Mode**: Intelligent scheduling and task management personality that helps you automatically organize your day, set priorities, and maintain focus on what matters most
-- **Bro Mode**: Motivational, direct personality for encouragement and accountability
+- **Navigator Mode**: Your daily commander - organizes the day, manages tasks and guides through current affairs
+- **Reflection Mode**: Thoughtful, contemplative personality that helps identify patterns you might miss or alert you to correlations (like mood and sleep)
+- **Strategy Mode**: Master of long-term planning - creates strategies, visions, roadmaps and guides through big goals
+- **Writer Mode**: Your creative writing assistant for any written content
+- **Curator Mode**: Your knowledge base organizer and maintenance assistant
 - **Custom Modes**: Create your own AI personalities with specific traits, voices, and purposes
 
 #### 🎙️ **Mobile-First Voice Journaling**
@@ -45,22 +56,21 @@ All your personal information is stored locally in your Obsidian vault on your p
 
 ### Getting Started
 
-1. [Install Life Navigator](library/Docs/Installation.md) in your Obsidian vault
+1. [Install Life Navigator](library/en/Docs/Installation.md) in your Obsidian vault
 2. Complete the guided setup with language selection and API key configuration
 3. Start using the pre-built LifeNavigator mode or create your own custom modes or download additional modes from the [Life Navigator Library](library/)
+4. **Optional**: [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get expert guidance
 
 ### Documentation
 
-- **[Installation Guide](library/Docs/Installation.md)** - Step-by-step setup instructions
-- **[User Guide](library/Docs/User%20Guide.md)** - Comprehensive guide to using Life Navigator
-- **[Roadmap](ROADMAP.md)** - Future features and improvements
+- **[Installation Guide](library/en/Docs/Installation.md)** - Step-by-step setup instructions
+- **[User Guide](library/en/Docs/User%20Guide.md)** - Comprehensive guide to using Life Navigator
 
 ### Community & Support
 
 Join our growing community of Life Navigator users:
 
 - **[Discord Server](https://discord.gg/VrxZdr3JWH)** - Get help, share experiences, and connect with other users
-- **[GitHub Discussions](https://github.com/cielecki/life-navigator/discussions)** - Feature requests and general discussions
 - **[Issues](https://github.com/cielecki/life-navigator/issues)** - Bug reports and technical issues
 
 ### Current Status

@@ -8,11 +8,11 @@ This guide covers everything you need to know about developing AI personalities 
 
 Life Navigator modes are AI personalities with specific expertise, communication styles, and capabilities. Each mode is designed for particular use cases:
 
-- **Assistant**: Professional task management and organization
-- **Planner**: Strategic daily planning and goal setting  
+- **Navigator**: Daily task management and organization
+- **Strategy**: Long-term planning and goal setting  
 - **Reflection**: Personal insights and pattern recognition
-- **Tool Creator**: Technical development assistance
-- **Bro**: Motivational coaching and direct advice
+- **Writer**: Creative content generation and editing
+- **Curator**: Knowledge base organization and maintenance
 
 ## Mode File Structure
 
