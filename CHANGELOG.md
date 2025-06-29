@@ -1,3 +1,67 @@
+## Version 0.13.3 - June 29, 2025
+
+### 🎙️ Voice Experience Improvements
+
+**Enhanced voice input and output:**
+
+Voice transcription is now 5x faster with pristine quality using optimized audio processing for OpenAI's API, plus more natural text-to-speech playback:
+
+- **5x faster transcription**: Processes in milliseconds instead of seconds
+- **State-of-the-art audio processing**: Comprehensive pipeline includes voice activity detection, silence removal, noise filtering, and hallucination cleanup - all working together to deliver pristine transcription quality
+- **Optimized audio format**: Carefully tuned for the best balance of speed and accuracy with OpenAI's API
+- **Intelligent word recognition**: AI recognizes names and technical terms from your notes and includes them in transcription prompts
+- **More natural text-to-speech**: Voice playback now handles emojis and special characters smoothly without stumbling
+
+### 🛡️ Critical Security & Stability Fixes
+
+**Essential fixes for data integrity and security:**
+
+- **XSS protection**: User messages are now displayed as plain text, preventing malicious code injection
+- **Fixed last message loss**: Resolved issues when switching between chats during message processing
+- **Accurate cost tracking**: Fixed duplicate cost entries that were incorrectly doubling usage statistics
+- **Cache system fixes**: Resolved bugs that were slowing down conversations with many tool calls
+
+### ✨ Interface Improvements
+
+**More control and better usability:**
+
+- **Voice autoplay toggle**: New button next to mode selector lets you disable/enable automatic voice playback - a highly requested feature now accessible directly from the main input
+- **Smart message display**: Long messages show "Read more" links for better readability
+- **Natural scrolling**: You can scroll up during AI responses without being forced back to the bottom
+- **Right sidebar auto-expansion**: Life Navigator expands to optimal width when opened in sidebar
+- **Instant chat opening**: New conversations scroll to bottom immediately without animation
+
+### 🔧 Enhanced Tools & Search
+
+**Your AI assistant's tools work more reliably:**
+
+- **Better vault search**: Results show meaningful context around search terms instead of file's first line
+- **Precise navigation**: Click search results to jump directly to the line containing your search term
+- **Cleaner file editing**: Remove operations properly delete entire lines without leaving empty spaces
+- **Fixed user tools**: User-defined tools now correctly recognize and display their parameters
+- **Smart error recovery**: When user tools fail, the AI gets detailed debugging information to help fix them automatically
+- **Automatic pagination**: Large search results are paginated for easier browsing
+
+### 🎯 Additional Improvements
+
+**Important fixes based on recent user feedback:**
+
+- **Mode switching during editing**: Change AI modes while editing messages
+- **Accurate audio indicators**: Play/pause buttons only appear on the message actually playing audio
+- **Instant cost analysis**: Cost dialog loads from memory instead of reading files from disk
+
+### 🚀 What This Means for You
+
+Version 0.13.3 focuses on stability and polish based on weeks of user feedback. Every aspect of Life Navigator is now more reliable and responsive.
+
+**Everyone benefits from**: Better performance, fixed chat history loss issues, and intuitive interface improvements
+**Voice users benefit from**: Near-instant transcription with better quality  
+**Tool creators benefit from**: Working parameter recognition and automatic error recovery  
+
+This release addresses the most common pain points users have reported, making Life Navigator work the way you expect it to.
+
+---
+
 ## Version 0.13.2 - June 26, 2025
 
 ### 🎯 Your Personal Growth Journey Starts Here
