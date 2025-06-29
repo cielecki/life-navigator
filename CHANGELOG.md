@@ -12,13 +12,19 @@ Voice transcription is now 5x faster with pristine quality using optimized audio
 - **Intelligent word recognition**: AI recognizes names and technical terms from your notes and includes them in transcription prompts
 - **More natural text-to-speech**: Voice playback now handles emojis and special characters smoothly without stumbling
 
+### 💰 Cost Optimizations
+
+**Improvements to reduce API usage:**
+
+- **Enhanced prompt caching**: System prompts and context are now cached more efficiently, reducing redundant API calls for users with longer conversations
+- **Accurate cost tracking**: Fixed duplicate cost entries that were incorrectly doubling usage statistics
+
 ### 🛡️ Critical Security & Stability Fixes
 
 **Essential fixes for data integrity and security:**
 
 - **XSS protection**: User messages are now displayed as plain text, preventing malicious code injection
 - **Fixed last message loss**: Resolved issues when switching between chats during message processing
-- **Accurate cost tracking**: Fixed duplicate cost entries that were incorrectly doubling usage statistics
 - **Cache system fixes**: Resolved bugs that were slowing down conversations with many tool calls
 
 ### ✨ Interface Improvements
