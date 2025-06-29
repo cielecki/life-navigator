@@ -158,6 +158,13 @@ Każdy tryb może być szeroko dostosowywany:
 - Zmień ustawienie `voice` na: alloy, ash, ballad, coral, echo, fable, onyx, nova, sage, shimmer, lub verse
 - Modyfikuj `ln_voice_instructions` aby kontrolować styl mówienia (np. "mów szybko i energetycznie")
 
+**Przełącznik Automatycznego TTS:**
+- Kliknij ikonę głośności obok selektora trybu aby włączyć/wyłączyć automatyczne text-to-speech
+- Gdy włączone (🔊), odpowiedzi AI są automatycznie czytane na głos
+- Gdy wyłączone (🔇), możesz nadal ręcznie kliknąć przycisk odtwarzania na poszczególnych wiadomościach
+- Ustawienie jest zapisywane per-tryb, więc każdy tryb pamięta Twoją preferencję
+- Dostępne dla wszystkich trybów (tryby niestandardowe zapisują do pliku, wbudowane tryby zapisują do ustawień)
+
 **Dostosowywanie Wizualne:**
 - Zmień `icon` na dowolną [nazwę ikony Lucide](https://lucide.dev/icons/)
 - Modyfikuj `color` używając kodów hex lub nazw kolorów

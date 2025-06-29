@@ -13,7 +13,6 @@ max_tokens: 8096
 voice_autoplay: true
 voice: nova
 voice_instructions: Adopt a calm, reflective tone. Speak slowly and thoughtfully to encourage introspection.
-model: claude-opus-4-20250514
 version: 1.0
 ---
 
