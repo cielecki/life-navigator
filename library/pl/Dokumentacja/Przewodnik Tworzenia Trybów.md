@@ -38,7 +38,7 @@ tools_allowed:
 tools_disallowed: []
 example_usages:
   - "Example message to trigger this mode"
-  - "Short Name | Longer descriptive prompt that gets sent to the AI"
+  - "Longer descriptive prompt that gets sent to the AI | Short Name"
 ---
 
 # Your Mode Name
@@ -129,9 +129,9 @@ example_usages:
 **Display Name Format (with vertical line separator):**
 ```yaml
 example_usages:
-  - "Quick Label | This longer prompt will be sent to the AI"
-  - "Debug Tool | Help me debug this JavaScript error in my custom tool"
-  - "Create API | Create a tool that fetches data from an external API"
+  - "This longer prompt will be sent to the AI | Quick Label"
+  - "Help me debug this JavaScript error in my custom tool | Debug Tool"
+  - "Create a tool that fetches data from an external API | Create API"
 ```
 
 **How it works:**
@@ -442,7 +442,7 @@ tools_disallowed:
   - "task_*"
 example_usages:
   - "Help me learn about quantum computing"
-  - "Spanish Plan | Create a study plan for learning Spanish"
+  - "Create a study plan for learning Spanish | Spanish Plan"
 ---
 
 # Learning Assistant

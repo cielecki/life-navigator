@@ -50,6 +50,7 @@ Ta sekcja mapuje zawartość biblioteki do 6-poziomowego progresywnego systemu o
 ### 🚀 Poziom 4: Zaawansowane Tryby i Wytyczne
 **Wymagana zawartość biblioteki**:
 - `Tryby/Kurator.md` - Do organizacji vault i architektury informacji
+- `Tryby/Mentor.md` - Do głębokich procesów odkrywania i transformacji osobistej
 - `Tryby/Refleksja.md` - Do głębokiej introspekcji i rozwoju osobistego
 - `Tryby/Strategia.md` - Do długoterminowego planowania i wizji
 - `Tryby/Tekściarz.md` - Do tworzenia treści i copywritingu
@@ -138,6 +139,10 @@ Ta sekcja mapuje zawartość biblioteki do 6-poziomowego progresywnego systemu o
 - **Ścieżka**: `Tryby/Kurator.md`
 - **Opis**: Specjalista od spójności vault - organizuje struktury, utrzymuje porządek, zarządza architekturą informacji z systematyczną precyzją. Skupia się na organizacji i zarządzaniu informacjami.
 - **Kiedy używać**: Organizowanie struktury vault, naprawianie zepsutych linków, tworzenie hierarchii informacji, czyszczenie duplikatów, optymalizacja wyszukiwania
+
+- **Ścieżka**: `Tryby/Mentor.md`
+- **Opis**: Mistrz prowadzenia przez głębokie procesy odkrywania - wykorzystuje zaawansowane techniki dociekania, bezpieczeństwo psychologiczne i restrukturyzację poznawczą do otwierania prawdziwego zrozumienia i trwałej zmiany. Rozwija zdolność do samodzielnego dociekania.
+- **Kiedy używać**: Zagubienie życiowe, tkwienne w powtarzających się wzorcach, potrzeba głębszej perspektywy na ważne decyzje, poczucie niewykorzystanego potencjału, transformacyjne wyzwania osobiste
 
 - **Ścieżka**: `Tryby/Refleksja.md`
 - **Opis**: Coach do introspekcji i rozwoju osobistego z głębokim kontekstem, pomagający przetwarzać doświadczenia i dostosowywać życie do wartości. Zapewnia przemyślaną perspektywę na wyzwania życiowe.

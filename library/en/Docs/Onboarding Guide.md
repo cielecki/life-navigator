@@ -153,6 +153,7 @@ Logs/
 3. **Writer** - Help with content creation
 4. **Strategist** - Long-term planning assistance
 5. **Curator** - Organize and structure your knowledge
+6. **Mentor** - Transformational inquiry and personal discovery
 
 ### Guidelines System:
 - Create `Guidelines/` directory

@@ -50,6 +50,7 @@ This section maps library content to the 6-level progressive onboarding system:
 ### 🚀 Level 4: Advanced Modes & Guidelines
 **Required Library Content**:
 - `Modes/Curator.md` - For vault organization and information architecture
+- `Modes/Mentor.md` - For deep discovery processes and personal transformation
 - `Modes/Reflection.md` - For deep introspection and personal growth
 - `Modes/Strategy.md` - For long-term planning and vision
 - `Modes/Writer.md` - For content creation and copywriting
@@ -138,6 +139,10 @@ This section maps library content to the 6-level progressive onboarding system:
 - **Path**: `Modes/Curator.md`
 - **Description**: Vault consistency specialist - organizes structures, maintains order, manages information architecture with systematic precision. Focuses on organization and information management.
 - **Use When**: Organizing vault structure, fixing broken links, creating information hierarchies, cleaning duplicates, optimizing findability
+
+- **Path**: `Modes/Mentor.md`
+- **Description**: Master at guiding through deep discovery processes - uses advanced inquiry techniques, psychological safety, and cognitive restructuring to unlock genuine understanding and sustainable change. Develops capacity for self-inquiry.
+- **Use When**: Feeling lost in life, stuck in repeating patterns, need deeper perspective on important decisions, sense of untapped potential, transformational personal challenges
 
 - **Path**: `Modes/Reflection.md`
 - **Description**: Coach for introspection and personal growth with deep context, helping process experiences and align life with values. Provides thoughtful perspective on life challenges.

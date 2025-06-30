@@ -7,7 +7,7 @@ tags:
 version: 1
 example_usages:
   - Przenieś niedokończone zadania z wczoraj na dziś
-  - Dyrektywy | Wykonaj dyrektywy z dziennych, tygodniowych, miesięcznych, kwartalnych i rocznych notatek które masz już wczytane i masz w kontekście (nie doczytuj plików). Rozpocznij od wczytania dokumentu "Dyrektywy w notatkach" tak żebyś wiedział o co chodzi.
+  - Wykonaj dyrektywy z dziennych, tygodniowych, miesięcznych, kwartalnych i rocznych notatek które masz już wczytane i masz w kontekście (nie doczytuj plików). Rozpocznij od wczytania dokumentu "Dyrektywy w notatkach" tak żebyś wiedział o co chodzi. | Dyrektywy
 voice: echo
 voice_autoplay: true
 ---

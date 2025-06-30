@@ -7,7 +7,7 @@ tags:
 version: 1
 example_usages:
   - Move unfinished tasks from yesterday to today
-  - Directives | Execute directives from daily, weekly, monthly, quarterly and yearly notes that you already have loaded and have in context (don't read additional files). Start by loading the document "Note Directives" so you know what it's about.
+  - Execute directives from daily, weekly, monthly, quarterly and yearly notes that you already have loaded and have in context (don't read additional files). Start by loading the document "Note Directives" so you know what it's about. | Directives
 voice: echo
 voice_autoplay: true
 ---

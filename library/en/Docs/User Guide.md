@@ -89,6 +89,10 @@ Life Navigator includes several pre-configured AI personalities:
 - Contemplative, wise personality for deeper thinking, using your role models and values
 - Best for: Processing emotions, gaining insights, philosophical discussions
 
+**Mentor** - Transformational inquiry guide
+- Deep discovery processes using advanced inquiry techniques and psychological safety
+- Best for: Feeling lost in life, breaking patterns, important life decisions, transformational growth
+
 ## Daily Workflow
 
 ### Morning Planning
