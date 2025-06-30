@@ -1,4 +1,4 @@
-## Version 0.13.4 - June 29, 2025
+## Version 0.13.5 - June 29, 2025
 
 ### 🧠 New Mentor Mode
 
@@ -84,7 +84,7 @@ Voice transcription is now blazingly fast using our state-of-the-art audio proce
 
 ### 🚀 What This Means for You
 
-Version 0.13.4 transforms Life Navigator into your most reliable digital companion. With the new Mentor mode for deep personal work, web search for real-time information, and rock-solid stability throughout, this release addresses every major user request from the past month.
+Version 0.13.5 transforms Life Navigator into your most reliable digital companion. With the new Mentor mode for deep personal work, web search for real-time information, and rock-solid stability throughout, this release addresses every major user request from the past month.
 
 **New users benefit from**: The Mentor mode's gentle guidance through life's challenges  
 **Power users benefit from**: Web search integration and enhanced tool reliability  
