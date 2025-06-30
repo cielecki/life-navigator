@@ -1,70 +1,97 @@
-## Version 0.13.3 - June 29, 2025
+## Version 0.13.4 - June 29, 2025
 
-### 🎙️ Voice Experience Improvements
+### 🧠 New Mentor Mode
 
-**Enhanced voice input and output:**
+**A breakthrough in personal guidance:**
 
-Voice transcription is now 5x faster with pristine quality using optimized audio processing for OpenAI's API, plus more natural text-to-speech playback:
+Life Navigator now includes Mentor mode - a master at guiding you through deep discovery processes:
 
-- **5x faster transcription**: Processes in milliseconds instead of seconds
-- **State-of-the-art audio processing**: Comprehensive pipeline includes voice activity detection, silence removal, noise filtering, and hallucination cleanup - all working together to deliver pristine transcription quality
-- **Optimized audio format**: Carefully tuned for the best balance of speed and accuracy with OpenAI's API
-- **Intelligent word recognition**: AI recognizes names and technical terms from your notes and includes them in transcription prompts
-- **More natural text-to-speech**: Voice playback now handles emojis and special characters smoothly without stumbling
+- **Advanced inquiry techniques**: Uses psychological safety and cognitive restructuring to unlock genuine understanding
+- **Pattern recognition**: Helps identify and break repeating life patterns
+- **Transformational support**: Perfect for when you're feeling lost, stuck, or sensing untapped potential
+- **Self-inquiry development**: Builds your capacity for deeper self-reflection and sustainable change
+
+### 🌐 Web Search Integration
+
+**Real-time information at your fingertips:**
+
+Life Navigator can now search the web directly within your conversations:
+
+- **Current information**: Access up-to-date data beyond the AI's training cutoff
+- **Seamless integration**: Web results appear naturally in your chat flow
+- **Source tracking**: All information comes with proper attribution and links
+- **Multi-language support**: Search works perfectly in both English and Polish
+
+### 🎙️ Voice Experience Revolution
+
+**5x faster transcription with pristine quality:**
+
+Voice transcription is now blazingly fast using our state-of-the-art audio processing pipeline:
+
+- **Millisecond processing**: What used to take seconds now happens instantly
+- **Professional audio pipeline**: Voice activity detection, silence removal, noise filtering, and hallucination cleanup work together seamlessly
+- **Smart word recognition**: AI learns names and technical terms from your vault for accurate transcription
+- **Natural text-to-speech**: Handles emojis and special characters smoothly
+- **Perfect synchronization**: Fixed all issues with send buttons and audio indicators during voice interactions
 
 ### 💰 Cost Optimizations
 
-**Improvements to reduce API usage:**
+**Smarter API usage saves you money:**
 
-- **Enhanced prompt caching**: System prompts and context are now cached more efficiently, reducing redundant API calls for users with longer conversations
-- **Accurate cost tracking**: Fixed duplicate cost entries that were incorrectly doubling usage statistics
+- **Enhanced prompt caching**: Dramatically reduces API calls in longer conversations
+- **Accurate cost tracking**: Fixed duplicate entries that were incorrectly doubling your usage statistics
+- **Memory-based analytics**: Cost dialog loads instantly without disk access
 
-### 🛡️ Critical Security & Stability Fixes
+### 🛡️ Rock-Solid Stability
 
-**Essential fixes for data integrity and security:**
+**Critical fixes for data integrity:**
 
-- **XSS protection**: User messages are now displayed as plain text, preventing malicious code injection
-- **Fixed last message loss**: Resolved issues when switching between chats during message processing
-- **Cache system fixes**: Resolved bugs that were slowing down conversations with many tool calls
+- **XSS protection**: Complete security against malicious code injection
+- **Never lose messages**: Fixed all issues with message loss when switching chats
+- **Cache optimization**: Conversations with many tool calls now run smoothly
+- **Link expansion perfection**: Aliased wikilinks like `🧭 expand [[File|Display Name]]` now work flawlessly
 
-### ✨ Interface Improvements
+### ✨ Interface Polish
 
-**More control and better usability:**
+**Every interaction feels right:**
 
-- **Voice autoplay toggle**: New button next to mode selector lets you disable/enable automatic voice playback - a highly requested feature now accessible directly from the main input
-- **Smart message display**: Long messages show "Read more" links for better readability
-- **Natural scrolling**: You can scroll up during AI responses without being forced back to the bottom
-- **Right sidebar auto-expansion**: Life Navigator expands to optimal width when opened in sidebar
-- **Instant chat opening**: New conversations scroll to bottom immediately without animation
+- **Voice autoplay control**: Toggle automatic playback with a button right in your input area
+- **Smart text display**: Long messages show elegant "Read more" links
+- **Natural scrolling**: Read previous messages without being yanked back down
+- **Responsive sidebar**: Automatically adjusts to optimal width
+- **Visual feedback**: Audio play buttons accurately show which message is speaking
 
-### 🔧 Enhanced Tools & Search
+### 🔧 Supercharged Tools & Search
 
-**Your AI assistant's tools work more reliably:**
+**More powerful and reliable than ever:**
 
-- **Better vault search**: Results show meaningful context around search terms instead of file's first line
-- **Precise navigation**: Click search results to jump directly to the line containing your search term
-- **Cleaner file editing**: Remove operations properly delete entire lines without leaving empty spaces
-- **Fixed user tools**: User-defined tools now correctly recognize and display their parameters
-- **Smart error recovery**: When user tools fail, the AI gets detailed debugging information to help fix them automatically
+- **Intelligent vault search**: Shows rich context around matches with adjustable relevance thresholds
+- **Precise navigation**: Every search result and validation error takes you to the exact line
+- **Enhanced validation**: Mode and tool errors include clickable navigation targets
+- **Smart error recovery**: AI automatically diagnoses and helps fix tool failures
+- **Clean file operations**: Remove operations delete entire lines without leaving gaps
 - **Automatic pagination**: Large search results are paginated for easier browsing
 
 ### 🎯 Additional Improvements
 
-**Important fixes based on recent user feedback:**
+**Dozens of refinements that add up:**
 
-- **Mode switching during editing**: Change AI modes while editing messages
-- **Accurate audio indicators**: Play/pause buttons only appear on the message actually playing audio
-- **Instant cost analysis**: Cost dialog loads from memory instead of reading files from disk
+- **Edit modes anytime**: Switch AI modes even while editing messages
+- **Consistent parsing**: Display names and prompts always appear correctly
+- **Instant navigation**: Jump to any file and line with a single click
+- **Better error messages**: Clear, actionable guidance instead of technical jargon
+- **Smooth recording**: Voice input works perfectly even during AI responses
 
 ### 🚀 What This Means for You
 
-Version 0.13.3 focuses on stability and polish based on weeks of user feedback. Every aspect of Life Navigator is now more reliable and responsive.
+Version 0.13.4 transforms Life Navigator into your most reliable digital companion. With the new Mentor mode for deep personal work, web search for real-time information, and rock-solid stability throughout, this release addresses every major user request from the past month.
 
-**Everyone benefits from**: Better performance, fixed chat history loss issues, and intuitive interface improvements
-**Voice users benefit from**: Near-instant transcription with better quality  
-**Tool creators benefit from**: Working parameter recognition and automatic error recovery  
+**New users benefit from**: The Mentor mode's gentle guidance through life's challenges  
+**Power users benefit from**: Web search integration and enhanced tool reliability  
+**Voice users benefit from**: 5x faster transcription with perfect UI synchronization  
+**Everyone benefits from**: Unmatched stability and thoughtful interface improvements
 
-This release addresses the most common pain points users have reported, making Life Navigator work the way you expect it to.
+This isn't just an update - it's Life Navigator reaching its full potential as your trusted productivity and personal growth partner.
 
 ---
 
