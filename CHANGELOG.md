@@ -1,8 +1,9 @@
 # Changelog
 
-## Version 0.14.1 - [RELEASE DATE HERE]
+## Version 0.14.2 - July 7, 2025
 
 ### 🧑‍💻 Built-in AI Modes & Customization
+![image](https://github.com/user-attachments/assets/e279a981-b215-439c-b83e-bfa50032d04d)
 - Instantly enable or disable built-in AI modes (Navigator, Reflection, etc.) with a checkbox.
 - Create your own custom versions of any mode with a single click.
 
@@ -11,14 +12,18 @@
 - **Detective:** Uncover the real causes behind your challenges.
 
 ### 🧰 "Batteries Included" Philosophy
+![image](https://github.com/user-attachments/assets/a5fbd49f-28f3-4c69-94f9-270e22e0115b)
+
 - All major integrations and modes are available out of the box—just toggle what you need.
 - Experimental features are clearly marked for easy discovery.
 
 ### 📝 AI To-Do items
+![image](https://github.com/user-attachments/assets/9e45d5e7-3726-4073-81bd-30d4e8984e39)
 - AI can now follow instructions embedded in your notes (using %% instruction %%).
 - Leave tasks for the AI anywhere in your notes and Navigator mode will pick them up.
 
 ### 🔄 Limitless Sync Improvements
+![image](https://github.com/user-attachments/assets/6ee06803-ce67-4134-8fb8-4ef73f8b4a81)
 - Effortlessly sync your Limitless device logs into your Obsidian vault.
 - All your thoughts, conversations, and ideas in one place—secure and private.
 
