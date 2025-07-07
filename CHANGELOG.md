@@ -1,36 +1,37 @@
 # Changelog
 
-## [0.14.1] – Major Upgrade: More Power, More Control, More Clarity
+## Version 0.14.1 - [RELEASE DATE HERE]
 
-### What's New
-- **Instant Access to Built-in AI Modes**  
-  You can now enable or disable powerful built-in AI modes (like Navigator, Reflection, and more) with a simple checkbox. Want to experiment? Just click a mode's name to create your own custom version—no more complicated setup or risk of missing out on future improvements.
-- **Try New Personalities: Analyst & Detective**  
-  Meet Analyst (for deep life pattern analysis) and Detective (for uncovering the real causes behind your challenges). These new experimental modes help you reflect, analyze, and solve problems in new ways.
-- **"Batteries Included" Philosophy**  
-  Life Navigator now comes with a full set of modes and integrations ready to go. You decide what's on or off—just toggle what you need. Experimental features are clearly marked, so you always know what's stable and what's in testing.
-- **Seamless Customization**  
-  Customizing your experience is easier than ever. Create your own versions of built-in modes, turn features on or off, and enjoy a system that adapts to your workflow—no technical know-how required.
-- **Smarter, More Helpful AI**  
-  AI can now follow instructions you embed in your notes (using %%% instruction %%%). This means you can leave tasks for the AI anywhere, and it will pick them up and help you as you work.
-- **Limitless Sync: Bring Your Conversations Home**  
-  Effortlessly sync your Limitless device logs into your Obsidian vault. Keep all your thoughts, conversations, and ideas in one place—secure, private, and fully under your control.
-- **Cleaner, More Reliable Setup**  
-  The setup process is now clearer, faster, and more reliable. Progress bars, step-by-step guidance, and a new "reset" option make onboarding and reconfiguration a breeze.
-- **Privacy-First Licensing**  
-  We're experimenting with a new licensing model that puts your privacy first. No data ever touches our servers—your license simply removes reminders, and you keep full control of your API keys.
+### 🧑‍💻 Built-in AI Modes & Customization
+- Instantly enable or disable built-in AI modes (Navigator, Reflection, etc.) with a checkbox.
+- Create your own custom versions of any mode with a single click.
 
-### What's Improved
-- **Consistent, User-Friendly Settings**  
-  All settings are now organized for clarity. You can see, enable, or disable every feature and integration in one place, with clear explanations and translations.
-- **Faster, Smoother Experience**  
-  The app is more responsive, with faster search, smarter audio playback, and less clutter. Debugging and error messages are clearer, and everything "just works" out of the box.
-- **Internationalization**  
-  Full Polish translation and improved support for international characters—Life Navigator is now more accessible than ever.
-- **Better Custom Tools & Integrations**  
-  Creating and managing your own tools and modes is now safer and more reliable. The new system ensures your customizations work seamlessly with future updates.
+### 🕵️‍♂️ New Experimental Personalities
+- **Analyst:** Deep life pattern analysis.
+- **Detective:** Uncover the real causes behind your challenges.
 
-### Why This Matters
+### 🧰 "Batteries Included" Philosophy
+- All major integrations and modes are available out of the box—just toggle what you need.
+- Experimental features are clearly marked for easy discovery.
+
+### 📝 AI To-Do items
+- AI can now follow instructions embedded in your notes (using %% instruction %%).
+- Leave tasks for the AI anywhere in your notes and Navigator mode will pick them up.
+
+### 🔄 Limitless Sync Improvements
+- Effortlessly sync your Limitless device logs into your Obsidian vault.
+- All your thoughts, conversations, and ideas in one place—secure and private.
+
+### 🛡️ New Licensing Model (Testing)
+- New privacy-first licensing model—no data ever touches our servers.
+- We're experimenting with a licensing approach that puts your privacy first.
+
+### ✨ UX Polish & Setup Improvements
+- Cleaner, more reliable setup with progress bars and a reset option.
+- Full Polish translation and improved support for international characters.
+- Settings are now more organized and user-friendly.
+
+### 🚀 What This Means for You
 This release is all about giving you more power and more control, while making everything easier and more transparent. Whether you're a new user or a power user, you'll find it easier to get started, customize your experience, and trust that your data and privacy are protected.
 
 ---
