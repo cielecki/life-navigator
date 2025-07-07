@@ -1,4 +1,4 @@
-# Changelog
+# Release Notes
 
 ## Version 0.14.2 - July 7, 2025
 
