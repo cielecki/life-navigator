@@ -7,7 +7,7 @@
 - **New FAQ screen** - quickly find answers from both chat menu and settings panel
 
 ### 🐞 Bugs fixed:
-- Fixed task editing and management tools to properly handle international characters (Polish, German, French, etc.) and emoji combinations
+- Fixed task editing and management tools to properly handle international characters and emoji combinations
 - Corrected mode prompt perspective inconsistencies - all modes now use consistent "Your Personality" language
 - Each AI mode now has its own unique voice that matches its personality (Navigator uses "echo", Detective uses "onyx", Writer uses "nova", etc.)
 - User messages now wrap naturally at word boundaries instead of breaking mid-word
