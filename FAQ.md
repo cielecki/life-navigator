@@ -1,7 +1,5 @@
 # Commonly asked questions and answers
 
----
-
 ### **I'm getting rate limit errors on antropic all the time, how to solve this?**
 
 If you put 40$ into your antropic account, it will upgrade your account to tier 2, which doubles the rate limits - it should be enough for anything that Life Navigator throws at it
