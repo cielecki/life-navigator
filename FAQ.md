@@ -10,6 +10,10 @@ Yes, in the system prompt itself you can instruct the AI to read any file and th
 
 Click on the name of the mode in an empty conversation or in the settings
 
+❓ **How do I recover an old version of a note?**
+
+Go to Settings -> Core Plugins -> File Recovery
+
 ❓ **My vault is getting messy with all the daily notes in one place, how to deal with this?**
 
 Configure your daily notes built in plugin, example settings:
