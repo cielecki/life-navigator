@@ -12,23 +12,29 @@ Click on the name of the mode in an empty conversation or in the settings
 
 > **How do I recover an old version of a note?**
 
-Go to Settings -> Core Plugins -> File Recovery
+Go to `Settings` -> `Core Plugins` -> `File Recovery`e
 
 > **My vault is getting messy with all the daily notes in one place, how to deal with this?**
 
 Configure your daily notes built in plugin, example settings:
 
+```
 Format: `YYYY/[Q]Q/YYYY-MM-DD - dddd`
 Note folder: `Logs`
+```
 
 This will create daily notes seperatelly for each quarter
 
-Furthermore I recommend installing `Periodic Notes` plugin and enabling all note types, with the following options:
+Furthermore, I recommend installing `Periodic Notes` plugin. Life Navigator has support both for the built in one and this one.
 
-Weekly notes Format: `YYYY/[Q]Q/gggg-[W]ww`
-Monthly notes Format: `YYYY/[Q]Q/YYYY-MM`
-Quarterly notes Format: `YYYY/[Q]Q/YYYY-[Q]Q`
-Yearly notes Format: `YYYY/YYYY`
+Try enabling all note types, with the following options:
+
+```
+Weekly notes Format: YYYY/[Q]Q/gggg-[W]ww
+Monthly notes Format: YYYY/[Q]Q/YYYY-MM
+Quarterly notes Format: YYYY/[Q]Q/YYYY-[Q]Q
+Yearly notes Format: YYYY/YYYY
+```
 
 Note folder each time: `Logs`
 
