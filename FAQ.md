@@ -1,20 +1,20 @@
-❓ **I'm getting rate limit errors on antropic all the time, how to solve this?**
+> **I'm getting rate limit errors on antropic all the time, how to solve this?**
 
 If you put 40$ into your antropic account, it will upgrade your account to tier 2, which doubles the rate limits - it should be enough for anything that Life Navigator throws at it
 
-❓ **When I edit a system prompt, the expand links get expanded every time, is there a way to make it conditional? so for example if I'm talking about professional life, is it possible to include file about professional life?**
+> **When I edit a system prompt, the expand links get expanded every time, is there a way to make it conditional? so for example if I'm talking about professional life, is it possible to include file about professional life?**
 
 Yes, in the system prompt itself you can instruct the AI to read any file and then apply it's logic. For example: `If I'm asking about matters related to professional life, read 'Professional guidelines' and adhere to the instructions found in that file.`
 
-❓ **How to customize system prompts?**
+> **How to customize system prompts?**
 
 Click on the name of the mode in an empty conversation or in the settings
 
-❓ **How do I recover an old version of a note?**
+> **How do I recover an old version of a note?**
 
 Go to Settings -> Core Plugins -> File Recovery
 
-❓ **My vault is getting messy with all the daily notes in one place, how to deal with this?**
+> **My vault is getting messy with all the daily notes in one place, how to deal with this?**
 
 Configure your daily notes built in plugin, example settings:
 
