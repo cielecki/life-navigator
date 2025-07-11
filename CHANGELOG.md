@@ -10,6 +10,8 @@
 - Removed analysis as it was a duplicate of detective
 - Improved detective prompts
 
+---
+
 ## Version 0.14.3 - July 8, 2025
 
 ### 🧑‍💻 Interface Improvements:
