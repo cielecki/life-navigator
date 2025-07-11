@@ -18,37 +18,21 @@
 ## Step 3: **Install Life Navigator Plugin**
 
 - Install Life Navigator:
-  - **Option A (Recommended):** If "Life Navigator" is already available in the Community Plugins browser, click "Browse" and search for "Life Navigator", then install it directly. If you use this method, skip to step 6.
-  - **Option B (Manual Installation):** If the plugin is not yet available in the community browser, or you need a specific version, continue with the manual installation steps below.
-    - Download the plugin files (Manual Installation Only):
-        - Open your web browser and go to the latest release: [https://github.com/cielecki/life-navigator/releases](https://github.com/cielecki/life-navigator/releases)
-        - Download these three files from the "Assets" section:
-        - `main.js`
-        - `manifest.json` 
-        - `styles.css`
-        - **Note:** All three files are required for the plugin to work properly
-
-    - Access your vault's folder (Manual Installation Only):
-        - Open your vault's folder in your computer's file explorer (Finder on Mac, File Explorer on Windows)
-        - You can usually find this in your iCloud Drive if you set it up there
-
-    - Show hidden files to access the .obsidian directory (Manual Installation Only):
-        - **On Mac:** In Finder, press `Cmd+Shift+.` (Command + Shift + Period) to show hidden files
-        - **On Windows:** In File Explorer, go to the "View" tab and check the "Hidden items" box
-        - You should now see a `.obsidian` folder in your vault directory
-
-    - Create the plugin directory structure (Manual Installation Only):
-        - Enter the `.obsidian` directory
-        - Create a new folder named `plugins` if it doesn't already exist
-        - Inside the `plugins` directory, create a new folder named `life-navigator` (with a hyphen, not underscore)
-        - Move the three downloaded files (`main.js`, `manifest.json`, and `styles.css`) into the `life-navigator` directory you just created
-        - Restart Obsidian completely to ensure it recognizes the new plugin
-
-    - Enable the plugin:
-        - Go back to **Settings → Community plugins**
-        - Under "Installed plugins," you should now see "Life Navigator"
-        - Enable it using the toggle switch
-        - If you don't see it, try the "Check for updates" button or restart Obsidian again
+  - **Option A (Not yet available):** If "Life Navigator" is already available in the Community Plugins browser, click "Browse" and search for "Life Navigator", then install it directly. If you use this method, skip to step 4.
+  - **Option B (Using BRAT):** If the plugin is not yet available in the community browser, you can install it using the BRAT plugin:
+    - First, install BRAT from the Community Plugins:
+        - Go to **Settings → Community plugins**
+        - Click "Browse" and search for "BRAT"
+        - Install and enable the BRAT plugin
+    - Use BRAT to install Life Navigator:
+        - Open the command palette (`Ctrl+P` on Windows/Linux, `Cmd+P` on Mac)
+        - Run the command "BRAT: Add a beta plugin for testing"
+        - Enter the GitHub repository URL: `https://github.com/cielecki/life-navigator`
+        - Select the latest version from the dropdown menu
+        - Click "Add Plugin" and wait for BRAT to install it
+        - Go to **Settings → Community plugins**
+        - Refresh the plugin list if needed
+        - Find "Life Navigator" in the list and enable it using the toggle switch
 
 ## Step 4: **Open Life Navigator and Complete Setup**
 
@@ -78,10 +62,10 @@
 - If you've been editing on desktop, give it a few minutes to sync before continuing on mobile, and vice versa
 
 **Plugin not appearing after installation:**
-- Ensure all three files (main.js, manifest.json, styles.css) are in the correct directory
-- Verify the directory name is `life-navigator`
-- Restart Obsidian completely
+- If using BRAT: Wait for the installation to complete, then refresh the plugin list in **Settings → Community plugins**
 - Check that community plugins are enabled
+- Restart Obsidian completely
+- If using BRAT and having issues, try running "BRAT: Check for updates to all beta plugins and UPDATE" from the command palette
 
 **Setup screens not appearing:**
 - If you've previously used Life Navigator, the setup may have been completed already
@@ -97,6 +81,10 @@
 - If you need to modify API keys later, you can do so in **Settings → Community plugins → Life Navigator (gear icon)**
 - You can also access settings directly from within Life Navigator using the "Open Settings" link during setup
 
+**Updating Life Navigator (if installed via BRAT):**
+- To update Life Navigator to the latest version, open the command palette and run "BRAT: Check for updates to all beta plugins and UPDATE"
+- You can also enable automatic updates in **Settings → Community plugins → Obsidian42 - BRAT → Auto-update plugins at startup**
+
 ## Next Steps
 
-After completing the installation and setup, please refer to the [User Guide](user-guide.md) for detailed instructions on how to use Life Navigator effectively. The guide will walk you through exploring the available features, customizing your experience, and using the different AI modes.
+After completing the installation and setup, please refer to the [User Guide](USER-GUIDE.md) for detailed instructions on how to use Life Navigator effectively. The guide will walk you through exploring the available features, customizing your experience, and using the different AI modes.
