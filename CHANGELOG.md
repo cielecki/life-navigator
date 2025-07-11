@@ -1,6 +1,16 @@
 # Release Notes
 
-## Version 0.14.3 - January 8, 2025
+## Version 0.14.6 - July 10, 2025
+
+### 🎁 Auto-update:
+- Removed auto update feature to be in line with Obsidian guidelines
+- The official way to install and update the app is now to use BRAT plugin for Obsidian, you can find it in the obsidian 3rd party plugin browser.
+
+### 🕵️‍♂️ Personalities:
+- Removed analysis as it was a duplicate of detective
+- Improved detective prompts
+
+## Version 0.14.3 - July 8, 2025
 
 ### 🧑‍💻 Interface Improvements:
 - **"More Modes" button now works** - properly opens plugin settings when clicked
