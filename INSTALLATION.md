@@ -21,7 +21,7 @@
   - Choose "Create new vault" (NOT Quick Start)
   - Pick a name for your vault
   - **Important:** Set the vault location to iCloud Drive folder
-  - After creation, right-click the vault folder in Finder and select "Always Keep on This Mac" to ensure it stays downloaded
+  - After creation, right-click the vault folder in Finder and select "Keep Downloaded" to ensure it stays downloaded
 
 ### If you have iPhone + Windows:
 - **iCloud Drive Setup:**
@@ -97,11 +97,9 @@
 - Open the app and select "Open folder as vault"
 - Choose your vault from your sync service (iCloud Drive, Google Drive, etc.)
 - **Important:** Wait for the vault to fully sync before proceeding
-- Enable community plugins on mobile:
-    - Go to **Settings → Community plugins**
-    - Turn on "Community plugins" 
-    - You may need to toggle "Restricted mode" and confirm to enable community plugins
-    - The Life Navigator plugin should automatically sync and be available
+- Hint: It's useful to set up your sync service to keep the entire vault directory always downloaded, otherwise you may experience signicant slowdowns as your files are downloaded on the fly.
+- The Life Navigator plugin should automatically sync and be available
+
 
 ## Troubleshooting
 
