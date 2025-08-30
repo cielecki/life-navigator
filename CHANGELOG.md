@@ -1,5 +1,20 @@
 # Release Notes
 
+# Release Notes
+
+## Version 0.15.1 - August 2025
+
+### 🎯 New Features
+
+- **Multi-file type support**: Drag & Drop, attach and process PDFs and markdown files directly in your conversations
+- **Real-time text-to-speech**: AI responses start playing audio immediately as they're being generated
+- **Custom models**: Choose from claude, gemini, openai and grok models
+- **New editing UI for modes**: Now you can edit mode settings via dedicated UI.
+- **MCP integration support**: Better support for Model Context Protocol tools
+- **iPad compatibility**: Fixed button sizing issues for better touch support
+- **New Brainstorming mode**: New mode for brainstorming and generating ideas that follows a procedure.
+- **New AI spiritual healer mode**: New mode for healing discovered trauma.
+
 ## Version 0.14.6 - July 10, 2025
 
 ### 🎁 Auto-update:
