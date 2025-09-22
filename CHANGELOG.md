@@ -1,6 +1,19 @@
 # Release Notes
 
-# Release Notes
+## Version 0.15.2 - 22 September 2025
+
+### 📎 Attachment handling
+
+- Drag and drop attachments from Finder and within Obsidian now works reliably.
+- Attachment ingestion automatically detects text, binary, PDF, and other file types for correct processing.
+
+### 💬 Chat stability
+
+- Resolved chat hanging when using Anthropic models, restoring dependable AI processing (expanded model support coming soon).
+
+### 🔊 Voice responses
+
+- Voice reading is more fluent and begins speaking as soon as sentences generate, delivering near real-time audio replies.
 
 ## Version 0.15.1 - August 2025
 
