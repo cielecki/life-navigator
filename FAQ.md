@@ -38,7 +38,7 @@ Configure your daily notes built in plugin, example settings:
 
 Format: 
 ```
-YYYY/[Q]Q/YYYY-MM-DD - dddd
+YYYY/MM/YYYY-MM-DD - dddd
 ```
 
 Note folder:
@@ -54,15 +54,15 @@ Try enabling all note types, with the following options:
 
 Weekly notes Format: 
 ```
-YYYY/[Q]Q/gggg-[W]ww
+YYYY/MM/gggg-[W]ww
 ```
 Monthly notes Format:
 ```
-YYYY/[Q]Q/YYYY-MM
+YYYY/MM/YYYY-MM
 ```
 Quarterly notes Format:
 ```
-YYYY/[Q]Q/YYYY-[Q]Q
+YYYY/YYYY-[Q]Q
 ```
 
 Yearly notes Format:
