@@ -46,7 +46,7 @@ Note folder:
 Logs
 ```
 
-This will create daily notes seperatelly for each quarter
+This will create daily notes seperatelly for each month.
 
 Furthermore, I recommend installing `Periodic Notes` plugin. Life Navigator has support both for the built in one and this one.
 
