@@ -2,7 +2,7 @@
 
 # Release v0.16.0 (November 12, 2025)
 
-<img width="736" height="1165" alt="0 16 0" src="https://github.com/user-attachments/assets/2a481aff-3817-4d98-ba68-7e2f6a29af5b" />
+<img width="368" height="583" alt="0 16 0" src="https://github.com/user-attachments/assets/2a481aff-3817-4d98-ba68-7e2f6a29af5b" />
 
 **Note:** This is the first release of the new architecture—expect some rough edges as we refine the system. This is a major release with significant changes, so please read carefully, especially the Breaking Changes section. We recommend backing up your vault before upgrading.
 
