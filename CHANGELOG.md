@@ -1,12 +1,10 @@
 # Release Notes
 
 # Release v0.16.0 (November 12, 2025)
-
-<img width="368" height="583" alt="0 16 0" src="https://github.com/user-attachments/assets/2a481aff-3817-4d98-ba68-7e2f6a29af5b" />
-
 **Note:** This is the first release of the new architecture—expect some rough edges as we refine the system. This is a major release with significant changes, so please read carefully, especially the Breaking Changes section. We recommend backing up your vault before upgrading.
 
 ## What's New
+<img width="368" height="583" alt="0 16 0" src="https://github.com/user-attachments/assets/2a481aff-3817-4d98-ba68-7e2f6a29af5b" />
 
 ### Task-Centric AI Modes
 AI modes (agents) have been redesigned around specific tasks and workflows. Instead of generic assistants, you now have specialized modes to start your day, end your day, get moving, brainstorm ideas, troubleshoot problems, and more. Each mode is optimized for its specific purpose, providing more focused and effective assistance.
@@ -64,10 +62,9 @@ Over the coming weeks, we'll be focusing on:
 
 This release represents a significant evolution of Life Navigator. We're committed to making it stable and polished. Please report any issues you encounter and share your feedback to help us improve.
 
----
-
 **Thank you for using Life Navigator!** We're excited about this new foundation and the possibilities it opens for future enhancements.
 
+---
 
 ## Version 0.15.2 - 22 September 2025
 
