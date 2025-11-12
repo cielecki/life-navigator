@@ -1,5 +1,74 @@
 # Release Notes
 
+# Release v0.16.0 (November 12, 2025)
+
+<img width="736" height="1165" alt="0 16 0" src="https://github.com/user-attachments/assets/2a481aff-3817-4d98-ba68-7e2f6a29af5b" />
+
+**Note:** This is the first release of the new architecture—expect some rough edges as we refine the system. This is a major release with significant changes, so please read carefully, especially the Breaking Changes section. We recommend backing up your vault before upgrading.
+
+## What's New
+
+### Task-Centric AI Modes
+AI modes (agents) have been redesigned around specific tasks and workflows. Instead of generic assistants, you now have specialized modes to start your day, end your day, get moving, brainstorm ideas, troubleshoot problems, and more. Each mode is optimized for its specific purpose, providing more focused and effective assistance.
+
+### Mode Customization & Management
+Create and customize your own AI modes with a powerful new editor interface. Modes are now stored as files in your vault, which:
+- Makes them easy to backup, share, and version control
+- Allows them to track and receive updates from built-in base modes
+- Provides a dedicated UI for editing all settings without manual file editing
+
+Model selection has been simplified—just choose a model like "Claude Sonnet" and the system handles all underlying configuration automatically.
+
+### Enhanced Context Management
+Context configuration has been redesigned with a dedicated UI. Instead of managing context through special markers in files, you can now edit everything directly in the mode editor for a more intuitive experience.
+
+### Mode Discovery & Auto-Installation
+The system can now discover, install, and suggest relevant modes based on your queries. Modes are installed as files in your vault, giving you full control. The system can automatically select appropriate modes or you can manually choose them through UI icons. Focus on the modes that interest you while ignoring the rest.
+
+### Vault-Based Chat Storage
+Your conversations are now stored as regular files directly in your vault. This means you can:
+- Search through chat history using Obsidian's native search
+- Manage conversations like any other note
+- Integrate chats with your existing knowledge management workflows
+
+## Improvements
+
+### Upgraded AI Model
+The plugin now uses Claude Sonnet 4.5 by default, providing improved reasoning, accuracy, and response quality across all modes.
+
+## Breaking Changes
+
+### AI Provider Support
+**Temporarily Removed:** Support for non-Anthropic AI providers has been removed in this release. We will reintroduce multi-provider support in a more robust and reliable way in an upcoming release. For now, the plugin exclusively uses Anthropic's Claude models.
+
+**Action Required:** If you were using other providers (OpenAI, local models, etc.), you'll need to configure an Anthropic API key to continue using the plugin.
+
+### Custom Mode Migration
+**May Require Recreation:** Custom modes created in v0.15.x may not be fully functional in the new system due to architectural changes.
+
+**Action Required:** Review your custom modes after upgrading. If they don't work as expected, you may need to recreate them using the new mode editor interface. The new system provides more powerful customization options that should make recreation straightforward.
+
+### Data Migration
+**Automatic:** Existing chats will be automatically migrated to the new vault-based storage system on first launch. This process may take a few moments depending on your chat history size.
+
+## What's Next
+
+Over the coming weeks, we'll be focusing on:
+- Comprehensive documentation updates and video tutorials
+- In-person onboarding sessions for interested users
+- Continuous bug fixes and stability improvements
+- Reintroduction of multi-provider support with enhanced reliability
+- AI-powered mode creator for easier mode customization
+
+## Feedback & Support
+
+This release represents a significant evolution of Life Navigator. We're committed to making it stable and polished. Please report any issues you encounter and share your feedback to help us improve.
+
+---
+
+**Thank you for using Life Navigator!** We're excited about this new foundation and the possibilities it opens for future enhancements.
+
+
 ## Version 0.15.2 - 22 September 2025
 
 ### 📎 Attachment handling
