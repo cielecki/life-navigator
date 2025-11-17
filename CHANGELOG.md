@@ -1,5 +1,25 @@
 # Release Notes
 
+# Release v0.16.1 (November 17, 2025)
+
+This patch release focuses on stability improvements, bug fixes, and refinements to the 0.16.0 architecture.
+
+## Improvements and Bug Fixes
+
+- **Clickable internal links**: Wikilinks in AI messages are now clickable and navigate directly to your notes
+- **Auto-updating context paths**: Mode context attachments automatically update when files are renamed or moved
+- **Improved invalid mode handling**: Better visual feedback and consistency when dealing with invalid or missing modes
+- **Start Day & Close Day improvements**: Enhanced workflows with better structure and user experience
+- **Auto-refresh on sync**: Chat history automatically refreshes when files sync
+- **Fixed mobile silence**: Resolved audio recording issues on mobile by sharing MediaStream between recording and waveform (#4999ef46)
+- **TTS during recording**: Prevented text-to-speech from streaming while voice recording is active
+- **Track Activities headers**: Eliminated duplicate headers in Track Activities mode
+- **Mode selector visibility**: "Open new tab" now always shows the mode selector as expected
+- **Multimodal support**: Initial message that is triggering auto mode selection now properly supports attachments and multimodal input
+- **Invalid mode handling**: Better error handling and visual consistency for invalid modes (#256)
+
+---
+
 # Release v0.16.0 (November 12, 2025)
 **Note:** This is the first release of the new architecture—expect some rough edges as we refine the system. This is a major release with significant changes, so please read carefully, especially the Breaking Changes section. We recommend backing up your vault before upgrading.
 
