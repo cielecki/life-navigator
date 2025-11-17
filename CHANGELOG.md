@@ -17,6 +17,7 @@ This patch release focuses on stability improvements, bug fixes, and refinements
 - **Mode selector visibility**: "Open new tab" now always shows the mode selector as expected
 - **Multimodal support**: Initial message that is triggering auto mode selection now properly supports attachments and multimodal input
 - **Invalid mode handling**: Better error handling and visual consistency for invalid modes (#256)
+- **Disabled unfinished modes**: Removed 8 experimental modes from production that weren't ready for release (Personal Branding Strategist, Long Term Planner, Wind Down, Reflection, Relationship Consultant, Longevity Strategist, Psychodietitian, and Financial Advisor). These modes were accidentally available in 0.16.0 and will return in a future release when they're production-ready
 
 ---
 
