@@ -11,12 +11,12 @@ This patch release focuses on stability improvements, bug fixes, and refinements
 - **Improved invalid mode handling**: Better visual feedback and consistency when dealing with invalid or missing modes
 - **Start Day & Close Day improvements**: Enhanced workflows with better structure and user experience
 - **Auto-refresh on sync**: Chat history automatically refreshes when files sync
-- **Fixed mobile silence**: Resolved audio recording issues on mobile by sharing MediaStream between recording and waveform (#4999ef46)
+- **Fixed mobile silence**: Resolved audio recording issues on mobile
 - **TTS during recording**: Prevented text-to-speech from streaming while voice recording is active
 - **Track Activities headers**: Eliminated duplicate headers in Track Activities mode
 - **Mode selector visibility**: "Open new tab" now always shows the mode selector as expected
 - **Multimodal support**: Initial message that is triggering auto mode selection now properly supports attachments and multimodal input
-- **Invalid mode handling**: Better error handling and visual consistency for invalid modes (#256)
+- **Invalid mode handling**: Better error handling and visual consistency for invalid modes
 - **Disabled unfinished modes**: Removed 8 experimental modes from production that weren't ready for release (Personal Branding Strategist, Long Term Planner, Wind Down, Reflection, Relationship Consultant, Longevity Strategist, Psychodietitian, and Financial Advisor). These modes were accidentally available in 0.16.0 and will return in a future release when they're production-ready
 
 ---
