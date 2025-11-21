@@ -1,5 +1,26 @@
 # Release Notes
 
+# Release v0.16.2 (November 21, 2025)
+
+This release focuses on architectural improvements, code quality, and preparing the foundation for future features.
+
+## Major Improvements
+
+### Mode System Enhancements
+- **Close Day mode improvements**: Added research-backed psychological techniques with clear sections and completion criteria
+- **UUID-based mode identifiers**: Modes now use stable UUIDs instead of file paths for better reliability
+- **Auto-updating context paths**: Mode context attachments automatically update when files are renamed or moved
+- **Better mode validation**: Improved handling of invalid modes with clearer error messages
+
+## Bug Fixes
+
+- **Recording state cleanup**: Fixed issues with recording state persisting after re-recording or editing
+- **Conversation sorting**: Use file stats for `updatedAt` to prevent inconsistencies in conversation listing
+- **Invalid mode handling**: Better visual consistency and error handling for missing or invalid modes
+- **Mode selector visibility**: Fixed issues with mode selector not appearing when expected
+- **Chat loading**: Await chat loading before rendering to prevent invalid states
+- **Unread count logic**: Fixed unread counter to properly display unread chats
+
 # Release v0.16.1 (November 17, 2025)
 
 This patch release focuses on stability improvements, bug fixes, and refinements to the 0.16.0 architecture.
