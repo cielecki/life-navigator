@@ -4,9 +4,7 @@
 
 This release focuses on architectural improvements, code quality, and preparing the foundation for future features.
 
-## Major Improvements
-
-### Mode System Enhancements
+## Mode System Enhancements
 - **Close Day mode improvements**: Added research-backed psychological techniques with clear sections and completion criteria
 - **UUID-based mode identifiers**: Modes now use stable UUIDs instead of file paths for better reliability
 - **Auto-updating context paths**: Mode context attachments automatically update when files are renamed or moved
