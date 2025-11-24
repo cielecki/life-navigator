@@ -1,5 +1,16 @@
 # Release Notes
 
+# Release v0.16.3 (November 24, 2025)
+
+Focused bug fix release improving conversation handling and audio recording experience.
+
+## Key Improvements
+
+- **Fixed a critical bug with mobile recording**: In 0.16.2 we introduced a bug which caused for chat to end up in invalid stat after recording, this is now fixed.
+- **Preserve text during recording**: Text input is now preserved when starting a voice recording on desktop, allowing you to append transcription to existing text
+
+---
+
 # Release v0.16.2 (November 21, 2025)
 
 This release focuses on architectural improvements, code quality, and preparing the foundation for future features.
