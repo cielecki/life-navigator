@@ -1,5 +1,26 @@
 # Release Notes
 
+# Release v0.16.4 (November 28, 2025)
+
+This release focuses on code quality, Obsidian compliance, and mobile responsiveness improvements.
+
+## New Features
+
+- **Claude Opus 4.5 support**: Added the latest Claude Opus 4.5 model to available model configurations
+
+## Improvements
+
+- **Better mobile experience**: Enhanced responsive design for mobile screens in setup component
+- **Improved Obsidian compliance**: CSS scoping, shadow variables, and plugin guidelines compliance
+- **Cleaner codebase**: Major refactoring of plugin initialization, store management, and dead code removal
+
+## Bug Fixes
+
+- **Setup flow**: Fixed transition to mode selector after setup completion
+- **Mode Builder icon**: Changed from brain to hammer for better clarity
+
+---
+
 # Release v0.16.3 (November 24, 2025)
 
 Focused bug fix release improving conversation handling and audio recording experience.
