@@ -1,5 +1,41 @@
 # Release Notes
 
+# Release v0.17.0 (December 8, 2025)
+
+This release introduces per-mode integrations, significant audio recording improvements for mobile, and enhanced transcript processing.
+
+## New Features
+
+- **Per-mode integration configuration**: Control which integrations (web access, development tools, MCP servers) are available for each mode individually
+- **iOS wake lock for recording**: Prevents iOS devices from sleeping during voice recording sessions
+- **AI-powered transcript formatting**: Smart formatting of voice transcriptions using LLM processing
+- **Keyword extraction for Whisper**: AI-powered keyword extraction improves transcription accuracy for domain-specific terms
+- **Claude Web Fetch tool**: Added support for Claude's web fetching capability
+- **Plugin language override**: New setting to override the plugin's UI language independently from Obsidian's language
+- **Track Activities periodic notes**: Added periodic notes configuration to Track Activities mode
+
+## Improvements
+
+- **Integrations promoted to stable**: Web access and development tools integrations are now stable features
+- **Streamlined settings UI**: Simplified integration settings with direct mode editor access
+- **Enhanced Start Day mode**: Added research-backed psychological techniques for better morning routines
+- **Mode editor reorganization**: Collapsible sections for better organization
+- **Improved typing performance**: Fixed responsiveness degradation in long chat conversations
+- **Better sync status messages**: Clearer indication when waiting for vault sync
+
+## Bug Fixes
+
+- **Mobile Enter key behavior**: Enter key now creates new lines instead of sending messages on mobile
+- **Audio retry transcription**: Fixed checking both locations for audio content
+- **Sync overlay coverage**: Extended blur overlay to cover entire sidebar
+- **Integration icon display**: Fixed icon rendering in integration settings
+- **Mode-level integration filtering**: Proper enforcement during tool execution
+- **Daily note structure**: Modes now correctly understand three-section daily note format
+- **Context attachment preservation**: Empty context attachments preserved when overriding base mode
+- **Obsidian compliance**: Removed empty fundingUrl per submission requirements
+
+---
+
 # Release v0.16.4 (November 28, 2025)
 
 This release focuses on code quality, Obsidian compliance, and mobile responsiveness improvements.
