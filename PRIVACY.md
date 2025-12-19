@@ -108,7 +108,6 @@ Life Navigator is designed with privacy at its core. Here's what you need to kno
 - **Export notes**: Your notes are stored in standard formats you control
 
 #### Transparency
-- **Open source**: Life Navigator's code is publicly available for review
 - **Clear documentation**: All data handling is documented and explained
 - **Regular updates**: Privacy policy changes are clearly communicated
 - **Usage options**: You can switch between API key and subscription modes anytime
@@ -162,7 +161,6 @@ You can view the complete history of this privacy policy in our [GitHub reposito
 ### Contact and Questions
 
 **For privacy-related questions:**
-- Review our [documentation](https://github.com/cielecki/life-navigator/tree/main/library/en/Docs)
 - Join our [Discord server](https://discord.gg/VrxZdr3JWH) for community support
 - Submit issues through [GitHub](https://github.com/cielecki/life-navigator/issues)
 
