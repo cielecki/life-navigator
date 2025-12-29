@@ -66,8 +66,8 @@
 ## Step 4: **Install Life Navigator Plugin**
 
 - Install Life Navigator:
-  - **Option A (Recommended):** Search for "Life Navigator" in the Community Plugins browser, click "Browse" and search for "Life Navigator", then install it directly.
-  - **Option B (Using BRAT):** For beta versions or if the plugin is not yet available in the community browser, you can install it using the BRAT plugin:
+  - **Option A (Not yet available):** If "Life Navigator" is already available in the Community Plugins browser, click "Browse" and search for "Life Navigator", then install it directly. If you use this method, skip to step 4.
+  - **Option B (Using BRAT):** If the plugin is not yet available in the community browser, you can install it using the BRAT plugin:
     - First, install BRAT from the Community Plugins:
         - Go to **Settings → Community plugins**
         - Click "Browse" and search for "BRAT"
@@ -97,7 +97,7 @@
 - Open the app and select "Open folder as vault"
 - Choose your vault from your sync service (iCloud Drive, Google Drive, etc.)
 - **Important:** Wait for the vault to fully sync before proceeding
-- Hint: It's useful to set up your sync service to keep the entire vault directory always downloaded, otherwise you may experience signicant slowdowns as your files are downloaded on the fly.
+- Hint: It's useful to set up your sync service to keep the entire vault directory always downloaded, otherwise you may experience significant slowdowns as your files are downloaded on the fly.
 - The Life Navigator plugin should automatically sync and be available
 
 

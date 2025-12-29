@@ -35,12 +35,10 @@ Life Navigator includes 20+ specialized AI modes, each designed for different as
 - **Guide**: Your onboarding companion that helps you discover, configure and master Life Navigator
 - **General Assistant**: General-purpose AI helper for any task you'd normally use ChatGPT for
 - **Task Manager**: Daily task management hub that helps organize your day and manage priorities
-- **Reflection**: Wise guide for deep self-discovery, pattern analysis and thoughtful contemplation
 
 **Specialized Modes:**
-- **Writer**, **Detective**, **Brainstorm**: Creative and analytical thinking
-- **Long-Term Planner**, **Financial Advisor**, **Relationship Consultant**: Life domain specialists
-- **Start Day**, **Close Day**, **Wind Down**: Daily routine support
+- **Detective**, **Brainstorm**: Creative and analytical thinking
+- **Start Day**, **Close Day**: Daily routine support
 - And many more specialized personalities for specific needs
 
 **Custom Modes:**
@@ -55,7 +53,7 @@ Designed for on-the-go use, Life Navigator lets you capture thoughts, update to-
 
 #### 🧭 **Full Control Over AI Context**
 
-Through the link expansion system, you have complete control over what information the AI can access. No RAGs, no guessing what AI can see - you explicitly choose what context to share using our special link syntax with the 🧭 emoji.
+You have complete control over what information the AI can access. Each mode can be configured with specific context attachments - files and data that are automatically included. No RAGs, no guessing what AI can see - you explicitly choose what context to share through mode configuration.
 
 #### 🔒 **Maximum Data Privacy**
 

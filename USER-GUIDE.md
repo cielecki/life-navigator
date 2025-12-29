@@ -110,6 +110,25 @@ Custom modes can:
 - Include context from specific files in your vault
 - Use different voice settings for text-to-speech
 
+### Available Voices
+
+Life Navigator supports these TTS voices:
+- **alloy** - Neutral, balanced
+- **ash** - Warm, conversational
+- **coral** - Friendly, upbeat
+- **echo** - Clear, direct
+- **fable** - Welcoming, patient
+- **onyx** - Deep, authoritative
+- **nova** - Energetic, enthusiastic
+- **sage** - Wise, calm
+- **shimmer** - Gentle, reflective
+
+### AI Models
+
+- **Claude Sonnet** - Balanced performance (recommended)
+- **Claude Opus** - Most capable, best for complex reasoning
+- **Claude Haiku** - Fastest, good for simple tasks
+
 ## Voice Features
 
 ### Voice Recording
