@@ -1,13 +1,13 @@
-# Life Navigator Project
+# Life Navigator
 
 <div align="center">
-  <img src="./logo.png" width="300" alt="Life Navigator Project Logo">
+  <img src="./logo.png" width="300" alt="Life Navigator Logo">
 </div>
 
 > AI has the potential to make us more human from the inside out as no tool has ever done before.
- — Deepak Chopra
+> — Deepak Chopra
 
-Life Navigator is a deeply personal, AI companion that lives in your private notes and helps you navigate life with greater awareness and intentionality. Unlike generic AI assistants, it builds deep context about your life through daily voice journaling, then reflects patterns you can't see yourself, holds you accountable to your goals, and provides personalized guidance in multiple "modes" - from empathetic reflection to tough-love motivation. It's not just a tool but a new practice of living: where every day you dialogue with an AI that truly knows you, turning the chaos of daily life into structured growth while keeping all your data completely private on your own devices.
+Life Navigator is a deeply personal AI companion that lives in your private notes and helps you navigate life with greater awareness and intentionality. Unlike generic AI assistants, it builds deep context about your life through daily voice journaling, then reflects patterns you can't see yourself, holds you accountable to your goals, and provides personalized guidance in multiple "modes" - from empathetic reflection to tough-love motivation. It's not just a tool but a new practice of living: where every day you dialogue with an AI that truly knows you, turning the chaos of daily life into structured growth while keeping all your data completely private on your own devices.
 
 Join our community:
 
@@ -24,45 +24,61 @@ Life Navigator is built as a plugin for [Obsidian](https://obsidian.md), the pri
 ### Key Features
 
 #### 🧠 **Context-Aware AI That Knows You Deeply**
+
 Unlike generic ChatGPT, Life Navigator's AI has access to your personal context, goals, relationships, and history through your linked files. It can provide personalized coaching, insights, and guidance based on your actual life situation, not generic responses.
 
 #### 🎭 **Multiple Customizable AI Personalities (Modes)**
-Switch between different AI personalities based on your needs:
-- **Navigator Mode**: Your daily commander - organizes the day, manages tasks and guides through current affairs
-- **Reflection Mode**: Thoughtful, contemplative personality that helps identify patterns you might miss or alert you to correlations (like mood and sleep)
-- **Strategy Mode**: Master of long-term planning - creates strategies, visions, roadmaps and guides through big goals
-- **Writer Mode**: Your creative writing assistant for any written content
-- **Curator Mode**: Your knowledge base organizer and maintenance assistant
-- **Custom Modes**: Create your own AI personalities with specific traits, voices, and purposes
+
+Life Navigator includes 20+ specialized AI modes, each designed for different aspects of life navigation. Switch between them based on your needs:
+
+**Core Modes:**
+- **Guide**: Your onboarding companion that helps you discover, configure and master Life Navigator
+- **General Assistant**: General-purpose AI helper for any task you'd normally use ChatGPT for
+- **Task Manager**: Daily task management hub that helps organize your day and manage priorities
+
+**Specialized Modes:**
+- **Detective**, **Brainstorm**: Creative and analytical thinking
+- **Start Day**, **Close Day**: Daily routine support
+- And many more specialized personalities for specific needs
+
+**Custom Modes:**
+- Create your own AI personalities with specific system prompts, voices, and tool access
+- Use the built-in **Mode Builder** to develop custom modes with guided assistance
+- Extend existing internal modes or build completely new ones from scratch
+- Control AI context with file and tool attachments for each mode
 
 #### 🎙️ **Mobile-First Voice Journaling**
+
 Designed for on-the-go use, Life Navigator lets you capture thoughts, update to-do lists, and manage your daily notes using voice input throughout your day. Whether you're commuting, walking, or just want hands-free interaction, simply speak your thoughts and let the AI organize them into your journal and task management system.
 
 #### 🧭 **Full Control Over AI Context**
-Through the link expansion system, you have complete control over what information the AI can access. No RAGs, no guessing what AI can see - you explicitly choose what context to share using our special link syntax with the 🧭 emoji.
+
+You have complete control over what information the AI can access. Each mode can be configured with specific context attachments - files and data that are automatically included. No RAGs, no guessing what AI can see - you explicitly choose what context to share through mode configuration.
 
 #### 🔒 **Maximum Data Privacy**
+
 All your personal information is stored locally in your Obsidian vault on your private devices and synced through your own iCloud (or preferred sync service). Unlike other AI tools that store your data in startup databases, Life Navigator keeps everything under your control. The information you choose to share is sent only to trusted API providers (Anthropic and OpenAI) who don't use API data for training ([OpenAI policy](https://community.openai.com/t/data-privacy-with-openai-api/929399), [Anthropic policy](https://privacy.anthropic.com/en/articles/7996868-is-my-data-used-for-model-training)) and have strong data retention policies.
 
 ### Getting Started
 
-1. **Optional**: Life Navigator AI onboarding agent is a work in progress, it's advised at this stage to [Book a free personal onboarding session](https://calendly.com/maciej-cielecki/new-meeting) to get guidance or just give a high five
 1. [Install Life Navigator](INSTALLATION.md) in your Obsidian vault
 2. Complete the guided setup with language selection and API key configuration
-3. Start using the pre-built LifeNavigator mode or create your own custom modes or download additional modes from the [Life Navigator Library](library/)
+3. Start using the pre-built modes or create your own custom modes
 
 ### Documentation
 
 - **[Installation Guide](INSTALLATION.md)** - Step-by-step setup instructions
 - **[User Guide](USER-GUIDE.md)** - Comprehensive guide to using Life Navigator
+- **[Privacy Policy](PRIVACY.md)** - How your data is handled
+- **[FAQ](FAQ.md)** - Frequently asked questions
 
 ### Community & Support
 
 Join our growing community of Life Navigator users:
 
 - **[Discord Server](https://discord.gg/VrxZdr3JWH)** - Get help, share experiences, and connect with other users
+- **[GitHub Discussions](https://github.com/cielecki/life-navigator/discussions)** - Feature requests and general discussions
 - **[Issues](https://github.com/cielecki/life-navigator/issues)** - Bug reports and technical issues
-- **[Author's X.com profile](http://x.com/mcielecki)** - Follow for updates
 
 ### Current Status
 
@@ -71,6 +87,7 @@ Life Navigator is in active development and currently in beta. While the core fe
 ### Acknowledgments
 
 Special thanks to:
+
 - The Obsidian team for creating an amazing platform
 - Our early testers and community members for invaluable feedback
 
@@ -79,5 +96,3 @@ Special thanks to:
 <div align="center">
   <i>Life Navigator - Transform your relationship with AI from exploitation to empowerment</i>
 </div>
-
-

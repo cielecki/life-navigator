@@ -97,7 +97,7 @@
 - Open the app and select "Open folder as vault"
 - Choose your vault from your sync service (iCloud Drive, Google Drive, etc.)
 - **Important:** Wait for the vault to fully sync before proceeding
-- Hint: It's useful to set up your sync service to keep the entire vault directory always downloaded, otherwise you may experience signicant slowdowns as your files are downloaded on the fly.
+- Hint: It's useful to set up your sync service to keep the entire vault directory always downloaded, otherwise you may experience significant slowdowns as your files are downloaded on the fly.
 - The Life Navigator plugin should automatically sync and be available
 
 
