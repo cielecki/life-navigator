@@ -1,5 +1,64 @@
 # Release Notes
 
+# Release v0.18.0 (December 30, 2025)
+
+This major release introduces the Proactive AI Assistant, multi-provider model support, virtualized chat for better performance, and significant mode system improvements.
+
+## New Features
+
+### Proactive AI Assistant
+- **Smart proactive triggers**: Configure modes to proactively reach out based on schedules, events, or conditions
+- **Multiple triggers per mode**: Set up multiple different triggers for each mode
+- **Rich notifications**: Proactive messages appear as dismissible notices with auto-dismiss
+- **Desktop notifications**: Get notified even when Obsidian isn't in focus
+- **Status bar indicator**: See when proactive AI is active at a glance
+- **Smart interruption prevention**: Proactive assistant waits when you have active or unread chats
+
+### Multi-Provider Model Support
+- **Google Gemini models**: Full support for Gemini AI models
+- **xAI Grok models**: Integration with xAI's Grok family of models
+- **OpenAI GPT-5.2 family**: Support for the latest GPT-5.2 models
+- **Per-provider API keys**: Configure multiple AI providers simultaneously
+
+### Performance & UX Improvements
+- **Virtualized message list**: Chat performance dramatically improved with virtualization (powered by virtua)
+- **Mode badges**: Visual indicators showing which mode is active in conversations
+- **Chat history on empty screen**: Quickly access recent conversations from the chat view
+- **Global voice toggle**: Control voice playback from the status bar
+- **Scroll indicators**: Visual cues in dropdown menus when more content is available
+
+### Mode System Enhancements
+- **AI-assisted mode creation**: Replace "Create Blank" with intelligent AI-powered mode creation
+- **Focused practice modes**: Start Day and Close Day decomposed into targeted practice modes
+- **Dedicated review modes**: Close Period replaced with specialized review modes
+- **Proactive triggers editor**: Configure when and how modes reach out to you
+- **Open mode settings from chat**: Click the mode in chat header to edit settings directly
+
+## Improvements
+
+- **Unified notification system**: AI-driven notifications with consistent behavior across the app
+- **Better autoscroll**: Enhanced scroll behavior that respects your reading position
+- **Voice playback scoping**: Auto-play voice only for focused/foreground chats
+- **Unread sorting**: Unread conversations sort to top in history dropdown
+- **Time display**: Year omitted in relative time for current year dates
+- **Queue processing**: Rewritten pending-tasks processor with mutex and polling for reliability
+
+## Bug Fixes
+
+- **Attachments handling**: Fixed attachments and orphaned tool results in message converter
+- **UTF-16 sanitization**: Invalid UTF-16 surrogates in tool results now sanitized
+- **Prompt injection prevention**: User data wrapped in XML tags in speech-to-text
+- **Infinite render loop**: Fixed ProactiveTriggerSection re-render issue
+- **Audio cleanup**: MediaStream properly stored in state for cleanup
+- **API error messages**: Human-readable error messages instead of raw API errors
+- **Settings modal**: Settings modal now opens before navigating to tab
+- **Background generation**: Chat continues processing when navigating away
+- **Sync metadata**: Frontmatter metadata properly updated when reloading synced chats
+- **Mode stub preservation**: File path preserved in stub mode for invalid modes
+- **Model configuration**: Adjusted maxTokens for Claude Opus Thinking and refined temperature handling
+
+---
+
 # Release v0.17.0 (December 8, 2025)
 
 This release introduces per-mode integrations, significant audio recording improvements for mobile, and enhanced transcript processing.
@@ -72,7 +131,9 @@ Focused bug fix release improving conversation handling and audio recording expe
 
 This release focuses on architectural improvements, code quality, and preparing the foundation for future features.
 
-## Mode System Enhancements
+## Major Improvements
+
+### Mode System Enhancements
 - **Close Day mode improvements**: Added research-backed psychological techniques with clear sections and completion criteria
 - **UUID-based mode identifiers**: Modes now use stable UUIDs instead of file paths for better reliability
 - **Auto-updating context paths**: Mode context attachments automatically update when files are renamed or moved
