@@ -1,5 +1,21 @@
 # Release Notes
 
+# Release v0.18.2 (December 31, 2025)
+
+This patch release improves proactive AI reliability and mode editor UX.
+
+## Improvements
+
+- **Faster proactive triggers**: Reduced trigger check interval from 60s to 20s for more responsive proactive AI
+- **Unified context button**: Consolidated "Add" button design across all mode editor sections
+
+## Bug Fixes
+
+- **Proactive dispatcher reliability**: Fixed shorthand mode ID handling and empty tool input from truncation
+- **Trigger change detection**: Centralized detection with Zustand subscription for more reliable updates
+
+---
+
 # Release v0.18.1 (December 31, 2025)
 
 This patch release improves the onboarding experience and enhances visibility of mode context in chats.
