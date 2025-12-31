@@ -1,5 +1,20 @@
 # Release Notes
 
+# Release v0.18.1 (December 31, 2025)
+
+This patch release improves the onboarding experience and enhances visibility of mode context in chats.
+
+## New Features
+
+- **SetupIntro screen**: New onboarding screen with redesigned Guide mode for a smoother first-time experience
+- **Visible mode context attachments**: Mode context attachments now appear as visible tool calls at the start of chats, making it clear what context the AI is working with
+
+## Improvements
+
+- **Context section UX**: Consolidated modeSettings translations and improved context section user experience
+
+---
+
 # Release v0.18.0 (December 30, 2025)
 
 This major release introduces the Proactive AI Assistant, multi-provider model support, virtualized chat for better performance, and significant mode system improvements.
