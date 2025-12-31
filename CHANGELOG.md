@@ -1,5 +1,15 @@
 # Release Notes
 
+# Release v0.18.3 (December 31, 2025)
+
+This patch release fixes a notification bug during auto-mode selection.
+
+## Bug Fixes
+
+- **Auto-mode notification**: Fixed spurious "New message" notification appearing when auto-mode-selection triggers mode materialization
+
+---
+
 # Release v0.18.2 (December 31, 2025)
 
 This patch release improves proactive AI reliability and mode editor UX.
