@@ -1,5 +1,35 @@
 # Release Notes
 
+# Release v0.18.4 (January 2, 2026)
+
+This patch release promotes stable modes, introduces an experimental task management system, and fixes internationalization issues.
+
+## New Features
+
+- **Three modes promoted to stable**: Start Day (WOOP), Track Activities, and Review Quarter modes are now part of the stable mode collection
+- **Voice speed slider**: Mode editor now uses an intuitive slider for voice speed configuration
+
+## Improvements
+
+- **Home button renamed**: "New chat" button now more accurately labeled as "Home"
+- **Integration Builder**: Extension Builder renamed to better reflect its purpose
+- **Reduced proactive context**: Default proactive triggers now only include the current daily note
+
+## Experimental
+
+- **New task management system**: Tasks are now managed via a dedicated Tasks.md file with plain text editing, plus a dedicated "Tasks" section in daily notes. This replaces the previous Main Backlog file approach.
+
+## Bug Fixes
+
+- **Polish locale path**: Fixed daily-planning-woop using correct Polish file path
+- **Language-specific notifications**: Notification prompts now properly use language-specific formatting
+- **Proactive trigger threshold**: Increased unread chat threshold from 1 to 2
+- **Mode icon differentiation**: Relationship coach now has distinct icon from gratitude practice
+- **Missing translations**: Added newChat and descriptionDescWithAutoSelect translation keys
+- **Context injection**: Fixed missing page parameter and continue message
+
+---
+
 # Release v0.18.3 (December 31, 2025)
 
 This patch release fixes a notification bug during auto-mode selection.
