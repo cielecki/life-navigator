@@ -1,5 +1,25 @@
 # Release Notes
 
+# Release v0.18.5 (January 3, 2026)
+
+This patch release improves proactive AI performance and fixes several reliability issues.
+
+## Performance
+
+- **Faster proactive trigger dispatch**: Now uses Haiku 4.5 model for more responsive trigger evaluation
+
+## Bug Fixes
+
+- **Message editing stability**: Fixed messages disappearing after editing in virtualized chat
+- **Proactive trigger persistence**: Disabled state now properly persists across plugin reloads
+- **Proactive notifications**: Fixed notifications not appearing when triggered
+
+## Refactoring
+
+- **Simplified library workflow**: Removed library_materialize tool in favor of streamlined approach
+
+---
+
 # Release v0.18.4 (January 2, 2026)
 
 This patch release promotes stable modes, introduces an experimental task management system, and fixes internationalization issues.
