@@ -1,5 +1,20 @@
 # Release Notes
 
+# Release v0.18.6 (January 5, 2026)
+
+This patch release adds local file overrides and fixes web tool integration.
+
+## New Features
+
+- **Local file override system**: Override library modes with local customizations using frontmatter-based configuration
+
+## Bug Fixes
+
+- **Claude web tools restored**: Fixed Claude's built-in web_search and web_fetch server tools
+- **MCP Headers handling**: Fixed Headers objects properly converted for Obsidian requestUrl compatibility
+
+---
+
 # Release v0.18.5 (January 3, 2026)
 
 This patch release improves proactive AI performance and fixes several reliability issues.
