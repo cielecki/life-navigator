@@ -4,10 +4,9 @@
   <img src="./logo.png" width="300" alt="Life Navigator Logo">
 </div>
 
-> AI has the potential to make us more human from the inside out as no tool has ever done before.
-> — Deepak Chopra
+> Journal, plan, reflect, and manage your life—by voice, on mobile, with AI that knows you.
 
-Life Navigator is a deeply personal AI companion that lives in your private notes and helps you navigate life with greater awareness and intentionality. Unlike generic AI assistants, it builds deep context about your life through daily voice journaling, then reflects patterns you can't see yourself, holds you accountable to your goals, and provides personalized guidance in multiple "modes" - from empathetic reflection to tough-love motivation. It's not just a tool but a new practice of living: where every day you dialogue with an AI that truly knows you, turning the chaos of daily life into structured growth while keeping all your data completely private on your own devices.
+Life Navigator is an Obsidian plugin that transforms your vault into a voice-first AI companion. Unlike generic chatbots, it has full context from your notes, journal, and goals. Speak your thoughts on mobile, and let specialized AI modes help you plan your day, reflect on patterns, manage tasks, and grow—all while keeping your data completely private on your own devices.
 
 Join our community:
 
@@ -94,5 +93,5 @@ Special thanks to:
 ---
 
 <div align="center">
-  <i>Life Navigator - Transform your relationship with AI from exploitation to empowerment</i>
+  <i>Life Navigator — Journal, plan, reflect, and grow.</i>
 </div>
