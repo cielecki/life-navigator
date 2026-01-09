@@ -1,9 +1,9 @@
 {
   "id": "life-navigator",
   "name": "Life Navigator",
-  "version": "0.18.6",
+  "version": "0.18.7",
   "minAppVersion": "0.15.0",
-  "description": "Mobile-First AI Voice companion that lives in your private notes and helps you navigate life with greater awareness and intentionality. (Closed source)",
+  "description": "Journal, plan, reflect, and manage your life—by voice, on mobile, with AI that knows you. (Closed source)",
   "author": "Maciej Cielecki",
   "authorUrl": "https://github.com/cielecki",
   "isDesktopOnly": false
