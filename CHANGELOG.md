@@ -1,5 +1,25 @@
 # Release Notes
 
+# Release v0.18.7 (January 9, 2026)
+
+This release introduces conversation tabs and prepares the codebase for Obsidian community plugins submission.
+
+## New Features
+
+- **Conversation tabs**: Open chats now appear as Chrome-like tabs in the Life Navigator view, with sync across devices via Obsidian Sync
+
+## Improvements
+
+- **Stabilized scrolling**: Fixed scroll behavior to use correct item indexing
+- **Screen lock prevention**: Mobile screen stays awake during chat processing
+- **Updated plugin description**: New tagline in manifest
+
+## Internal
+
+- **Code quality improvements**: Major cleanup for Obsidian community plugins submission ([PR #9406](https://github.com/obsidianmd/obsidian-releases/pull/9406))
+
+---
+
 # Release v0.18.6 (January 5, 2026)
 
 This patch release adds local file overrides and fixes web tool integration.
