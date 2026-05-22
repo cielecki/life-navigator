@@ -1,5 +1,24 @@
 # Release Notes
 
+# Release v0.19.1 (May 22, 2026)
+
+This patch refreshes the Anthropic model lineup to match what Anthropic actually ships today.
+
+## Improvements
+
+- **Claude Sonnet preset → Sonnet 4.6**: The default Sonnet preset now uses Claude Sonnet 4.6 (1M context, $3/$15) instead of Sonnet 4.5. Existing user configs continue to work — Sonnet 4.5 and Sonnet 4 remain available as fallbacks.
+- **Claude Opus preset → Opus 4.7**: The Opus preset now uses Claude Opus 4.7 (1M context, 128K output, $5/$25) with Opus 4.6, 4.5, 4.1, and 4 as fallbacks.
+- **Adaptive thinking on thinking presets**: Both "Claude Sonnet — thinking" and "Claude Opus — thinking" now use Anthropic's adaptive thinking mode (`{ type: "adaptive" }`) instead of a fixed token budget. The model dynamically scales reasoning depth per request — required on Opus 4.7 and recommended on the 4.6 generation.
+- **Newly available models**: `claude-opus-4-7`, `claude-sonnet-4-6`, and `claude-opus-4-6` are now selectable in mode model settings with correct context window (1M), output limit (128K / 64K / 128K), and pricing.
+
+## Internal
+
+- **`@ai-sdk/anthropic` upgraded** from 3.0.15 → 3.0.78 — required for the adaptive-thinking type in `AnthropicProviderOptions`.
+- **Deprecation flag** on `claude-opus-4` and `claude-sonnet-4` (the May 2025 snapshots) — Anthropic retires these on June 15, 2026. They're hidden from the model picker but still resolve from legacy user configs.
+- **CI**: Biome pinned to `2.3.2` (matches the project's pinned version) so CI no longer fails on newer Biome's stricter `organizeImports` enforcement.
+
+---
+
 # Release v0.19.0 (May 22, 2026)
 
 This release expands the mode library with six new guided modes, adds OAuth 2.1 secure authentication, ships an AI-driven UI testing MCP server, and bundles a long list of mobile, sync, and notification fixes. It also lays the groundwork for the next-generation chat engine (Chat V2) behind an experimental flag.
