@@ -1,5 +1,66 @@
 # Release Notes
 
+# Release v0.19.0 (May 22, 2026)
+
+This release expands the mode library with six new guided modes, adds OAuth 2.1 secure authentication, ships an AI-driven UI testing MCP server, and bundles a long list of mobile, sync, and notification fixes. It also lays the groundwork for the next-generation chat engine (Chat V2) behind an experimental flag.
+
+## New Features
+
+### New Modes
+- **Life Navigator and Habit Coach**: Two new guided modes for high-level life direction and habit formation
+- **Make Decision and Prioritize**: Decision-making and prioritization modes with built-in framework libraries (Eisenhower, ICE, ABCDE, MIT, Big Rocks, and more)
+- **Configurable Start Day and End Day**: Daily ritual modes are now fully configurable from the mode editor
+- **Configurable Real Cause**: Root-cause investigator mode is now user-configurable with a distinct icon
+
+### Authentication and Integrations
+- **OAuth 2.1 with PKCE**: Secure authentication flow for account login with dynamic client ID storage
+- **Safer defaults**: Account login and task management integration are now disabled by default — opt-in from settings
+
+### Mobile and UX
+- **Mobile chat menu controls**: Voice toggle and proactive AI controls now reachable from the chat menu dropdown on mobile
+- **Library tool dropdown**: `library_read` tool now offers a dropdown selector for the ID parameter instead of free-text entry
+
+## Improvements
+
+- **Streaming auto-scroll**: Auto-scroll now follows message content as it streams
+- **User-friendly error messages**: Browser network errors are translated into readable messages instead of raw stack traces
+- **Mode editor**: Appearance section is collapsed by default to reduce visual clutter
+- **Reorganized menu**: Voice and proactive controls placement refined for clarity
+
+## Bug Fixes
+
+- **Transcription on mobile**: Whisper now routes through Obsidian's `requestUrl` to bypass CORS restrictions
+- **Notification focus detection**: Improved focus detection on mobile with auto-dismiss; macOS now uses Electron's native API for reliable detection
+- **Persistent proactive notifications**: Proactive chat notifications stay visible instead of vanishing immediately
+- **Cross-device sync**: Tabs now update in real-time when chat state syncs across devices
+- **Title generation race**: Chat no longer reverts after a generated title is saved
+- **Home-screen menu**: 3-dot menu now appears on the home screen when a mode is selected
+- **Shimmer state**: Active shimmer extends through notification processing
+- **Streaming race condition**: `onMessageStart` uses a synchronous path to prevent race
+- **Pending tasks**: Auto-processing of pending messages restored after each conversation turn
+- **Task manager guidance**: Improved `note_edit` guidance for daily-note task positioning
+- **Tabs**: Stable tab order maintained, reload race condition fixed, empty conversation flicker removed on switch
+- **Chat focus**: Uses `document.hasFocus()` for accurate app-switch detection
+- **Chat view**: Orphaned temp chats cleaned up; mark-as-read visibility fixed
+- **Note edit diffs**: `processFile` return value captured for accurate diff generation
+- **Guide mode**: `suggest_mode` validates mode IDs to gracefully handle AI hallucinations
+- **Modal**: Confirmation dialog buttons right-aligned
+- **ResizeObserver**: Benign ResizeObserver loop warnings suppressed
+
+## Experimental
+
+- **Chat V2 architecture (opt-in)**: Behind the `experimentalChatV2` setting, a full chat engine rebuild on the Vercel AI SDK with finite state machines, native message editing/retry/delete/clear, drag-and-drop attachments, clipboard image paste, smart context injection, stick-to-bottom auto-scroll, streaming TTS autoplay, redesigned mode-selector home screen, and AI-generated chat titles. Not yet enabled by default — feedback welcome.
+
+## Internal / Developer
+
+- **`obsidian-qa` MCP server**: New AI-driven UI testing MCP server with click, type, screenshot, wait, evaluate, and console-log capture via Obsidian's CDP. Dark mode preserved in screenshots; console logs captured from before the CDP connection
+- **Docker dev environments**: Isolated containerized development setup
+- **Babel toolchain**: Integrated for enhanced JSX/TypeScript support (enables React Compiler experiments)
+- **Build hardening**: `mcp-server` excluded from main tsconfig to prevent OOM during builds
+- **Linting**: Obsidian-plugin ESLint rules wired up via `npm run lint:obsidian`
+
+---
+
 # Release v0.18.7 (January 9, 2026)
 
 This release introduces conversation tabs and prepares the codebase for Obsidian community plugins submission.
