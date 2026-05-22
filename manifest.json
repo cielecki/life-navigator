@@ -1,7 +1,7 @@
 {
   "id": "life-navigator",
   "name": "Life Navigator",
-  "version": "0.19.0",
+  "version": "0.19.1",
   "minAppVersion": "0.15.0",
   "description": "Journal, plan, reflect, and manage your life—by voice, on mobile, with AI that knows you. (Closed source)",
   "author": "Maciej Cielecki",
